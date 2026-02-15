@@ -8,6 +8,10 @@ const Header = () => {
 
   return (
     <nav className="nav-wrapper">
+        <div className="shopName">
+            <h1>Sri Subanka Foods Pvt Ltd </h1>
+            <p>Manufactures of Value Added Natural Food Products </p>
+        </div>
       <ul className="nav-container">
         {navItems.map((item) => (
           <li
@@ -19,7 +23,7 @@ const Header = () => {
               <motion.div
                 layoutId="active-pill"
                 className="active-bg"
-                transition={{ type: "spring", stiffness: 380, damping: 30 }}
+                transition={{ type: "spring", stiffness: 400, damping: 40 }}
               />
             )}
             <span className="nav-text">{item}</span>

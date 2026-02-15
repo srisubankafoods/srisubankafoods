@@ -6,16 +6,19 @@
   --site-blue:#4662ab;
   --site-green:#aab847;
   --text-normal: #333333;
+  --site-gradient: linear-gradient( var(--site-blue), var(--site-green));
 }
 
 .nav-wrapper {
   background-color: var(--nav-surface);
   padding: 10px;
   border-radius: 20px;
-  display: inline-block;
+  display: flex;
+  justify-content: space-between;
   border: 1px solid #ddd;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
   margin: 20px;
+  
 }
 
 .nav-container {
@@ -23,7 +26,7 @@
   list-style: none;
   margin: 0;
   padding: 0;
-  gap: 5px;
+  gap: 10px;
 }
 
 .nav-item {
@@ -44,6 +47,7 @@
   font-weight: 500;
   font-size: 0.95rem;
   color: var(--text-dim);
+
 }
 
 
@@ -77,4 +81,14 @@
 
 .nav-wrapper {
   animation: float 5s ease-in-out infinite;
+}
+
+.shopName{
+  display: inline-block;
+    background: var(--site-gradient);   
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 1000;
+  text-align: center;
+    
 }
