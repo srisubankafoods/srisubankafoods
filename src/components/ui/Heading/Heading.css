@@ -1,0 +1,24 @@
+
+:root {
+  --site-blue: #4662ab;
+  --site-green: #aab847;
+  --site-green: #aab847;
+
+  --text-normal: #333333;
+}
+
+.heading-container {
+  text-align: center;
+  margin-bottom: 4rem 0 ;
+}
+
+.heading {
+  font-size: 4rem;
+  color: var(--site-blue);
+  margin-bottom: 1rem;
+}
+
+.sub-heading {
+  font-size: 2rem;
+  color: var(--site-green);
+}
