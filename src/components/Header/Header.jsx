@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import "./Header.css";
-
+import Heading from "../ui/Heading/Heading";
 const Header = () => {
   const [active, setActive] = useState("Home");
   const navItems = ["Home", "Products", "About", "Contact"];
@@ -9,8 +9,7 @@ const Header = () => {
   return (
     <nav className="nav-wrapper">
         <div className="shopName">
-            <h1>Sri Subanka Foods Pvt Ltd </h1>
-            <p>Manufactures of Value Added Natural Food Products </p>
+            <Heading heading={"Sri Subanka Foods Pvt Ltd"} subHeading={"Manufactures of Value Added Natural Food Products"}/>
         </div>
       <ul className="nav-container">
         {navItems.map((item) => (
@@ -26,9 +25,9 @@ const Header = () => {
                 transition={{ type: "spring", stiffness: 400, damping: 40 }}
               />
             )}
-            <span className="nav-text">{item}</span>
+            <div className="nav-text">{item}</div>
           </li>
-        ))}
+        ))} 
       </ul>
     </nav>
   );

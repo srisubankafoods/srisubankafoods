@@ -1,5 +1,9 @@
 import React from "react";
 import "./Products.css";
+import ProductComponent from "./productComponent";
+
+
+
 function Products() {
   return (
     <>
@@ -13,61 +17,59 @@ function Products() {
           markets.
         </p>
       </div>
-<div className="all">
-      <div className="MilletRava">
-        <h1>Millet Rava</h1>
-        <p>
-          Finely processed from premium-quality millets, our Millet Rava is a
-          versatile ingredient suitable for a variety of traditional and modern
-          dishes.
-        </p>
-        <h2>Ideal for:</h2>
-        <p>Upma / Pongal / Kichadi / Kesari / Payasam and many more.</p>
-        <h2>Variants:</h2>
-        <p>
-          Foxtail Millet / Kodo Millet / Little Millet / Finger Millet / Pearl
-          Millet.
-        </p>
-      </div>
-
-      <div className="MilletRoti">
-        <h1>Millet Roti</h1>
-        <p>
-          Our Millet Roti offers a wholesome alternative to wheat-based
-          flatbreads, made from carefully selected millets to deliver both
-          nutrition and taste.
-        </p>
-        <h2>Benefits:</h2>
-        <p>
-           Gluten-free option  High in calcium and iron  Suitable for
-          diabetic-friendly diets  Soft texture with authentic flavor
-        </p>
-        <h2>Ideal for:</h2>
-        <p>Daily meals, health-conscious consumers, and specialty diets.</p>
-      </div>
-      <div className="MilletDryIdlyDosaBatter">
-        <h1>Millet Dry Idly/Dosa Batter</h1>
-        <p>
-          A convenient solution for preparing soft, traditional idlis using
-          millet instead of polished rice. Our dry batter ensures consistent
-          results with minimal preparation.
-        </p>
-        <h2>Benefits:</h2>
-        <p>
-           High fiber content  Better blood sugar management  Nutrient-dense
-          alternative to rice
-        </p>
-        <h2>Ideal for:</h2>
-        <p>Daily meals, health-conscious consumers, and specialty diets.</p>
-      </div>
-      </div>
-      <div className="WhyChooseOurProducts">
-        <h1>Why Choose Our Products ?</h1>
-        <p>
-           Made from carefully sourced traditional millets  Hygienically
-          processed in a modern facility  Export-ready packaging  Suitable for
-          health-conscious global consumers
-        </p>
+      <div className="all">
+        <ProductComponent
+          imgArr={[img1,img2,img3,img4]}
+          alter={"MilletDryIdlyDosaBatter"}
+          cn={"MilletRava"}
+          heading1={"Millet Rava"}
+          heading2={"Ideal for:"}
+          heading3={"Variants:"}
+          para1="Finely processed from premium-quality millets, our Millet Rava is a
+            versatile ingredient suitable for a variety of traditional and
+            modern dishes"
+          para2="Upma / Pongal / Kichadi / Kesari / Payasam and many more."
+          para3="Foxtail Millet / Kodo Millet / Little Millet / Finger Millet / Pearl
+            Millet."
+        />
+        <ProductComponent
+          imgArr={[img7]}
+          alter={"MilletRoti"}
+          cn={"MilletRoti"}
+          heading1={"Millet Roti"}
+          heading2={"Benefits:"}
+          heading3={"Ideal for:"}
+          para1=" Our Millet Roti offers a wholesome alternative to wheat-based
+            flatbreads, made from carefully selected millets to deliver both
+            nutrition and taste."
+          para2="  Gluten-free option  High in calcium and iron  Suitable for
+            diabetic-friendly diets  Soft texture with authentic flavor"
+          para3="Daily meals, health-conscious consumers, and specialty diets."
+        />
+        <ProductComponent
+          imgArr={[img5,img6]}
+          alter={"MilletDryIdlyDosaBatter"}
+          cn={"MilletDryIdlyDosaBatter"}
+          heading1={"Millet Dry Idly/Dosa Batter"}
+          heading2={"Benefits:"}
+          heading3={"Ideal for:"}
+          para1=" A convenient solution for preparing soft, traditional idlis using
+            millet instead of polished rice. Our dry batter ensures consistent
+            results with minimal preparation."
+          para2="  High fiber content  Better blood sugar management 
+            Nutrient-dense alternative to rice"
+          para3={
+            "Daily meals, health-conscious consumers, and specialty diets."
+          }
+        />
+        <ProductComponent
+          cn={"WhyChooseOurProducts"}
+          heading1={"Why Choose Our Products ?"}
+          paranew1={"  Made from carefully sourced traditional millets"}
+          paranew2={" Hygienically processed in a modern facility"}
+          paranew3={" Export-ready packaging"}
+          paranew4={" Suitable for health-conscious global consumers"}
+        />
       </div>
     </>
   );
