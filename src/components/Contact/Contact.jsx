@@ -102,6 +102,7 @@ function Contact() {
               <label for="requirements">Requirements</label>
               <br />
               <textarea
+              placeholder="I want to order/discuss..."
                 id="requirements"
                 name="requirements"
                 rows="9"
