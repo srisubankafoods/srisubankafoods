@@ -22,7 +22,7 @@ const ProductComponent = ({
   return (
     <>
       <div className={cn}>
-        <ProductSlide images={imgArr} />
+        <ProductSlide images={imgArr} alter={alter} />
         <h1>{heading1}</h1>
         <p>{para1}</p>
         {heading2 && <h2>{heading2}</h2>}
