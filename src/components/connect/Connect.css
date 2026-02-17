@@ -1,22 +1,30 @@
+
 .ConnectPara{
     font-size: 30px;
     display: flex;
-   
-    text-align: left;
-    max-width: 1050px;
-    line-height: 2;
+    text-align: justify;
+    width: 750px;
+    line-height: 1.2;
     margin: 20px;
+    padding-top: 35px;
 }
 .image{
     display: inline-flex;
+    
 }
 .image img{
-height: 700px;
+height: 750px;
 display: inline-flex;
-width: 900px;
-border-radius:30px;
-
+width: 740px;
+min-width: 400px;
+border-radius:70px;
 }
 .main{
     display: flex;
+    flex-wrap: wrap;
+     padding: 30px 10%;
 }
+.main1{
+    display: inline;
+}
+
