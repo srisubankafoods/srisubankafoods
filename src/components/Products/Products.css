@@ -16,10 +16,6 @@
   font-size: 42px;
   font-weight: 800;
   margin-bottom: 10px;
-
-  background: var(--site-gradient);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 
@@ -31,97 +27,14 @@
   margin-bottom: 35px;
 }
 
-.MilletRava,
-.MilletRoti,
-.MilletDryIdlyDosaBatter{
-  background: #fff;
-  padding: 26px 30px;
-  margin-bottom: 25px;
-  border-radius: 38px;
-  box-shadow: 0px 10px 25px rgba(0,0,0,0.08);
-  border: 1px solid rgba(0,0,0,0.06);
-  transition: 0.3s ease;
-  position: relative;
-  overflow: hidden;
-  max-width: 300px;
-  margin: 10px;
-  margin-top: 20px;
-  
-}
-.WhyChooseOurProducts{
-  background: #fff;
-  padding: 26px 30px;
-  margin-bottom: 25px;
-  border-radius: 18px;
-  box-shadow: 0px 10px 25px rgba(0,0,0,0.08);
-  border: 1px solid rgba(0,0,0,0.06);
-  transition: 0.3s ease;
-  position: relative;
-  margin-top: 20px;
-  overflow: hidden;
-}
-.MilletRava::before,
-.MilletRoti::before,
-.MilletDryIdlyDosaBatter::before,
-.WhyChooseOurProducts::before{
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 7px;
-  height: 100%;
-  background: var(--site-gradient);
-}
-
-.MilletRava:hover,
-.MilletRoti:hover,
-.MilletDryIdlyDosaBatter:hover,
-.WhyChooseOurProducts:hover{
-  transform: translateY(-20px);
-  box-shadow: 0px 18px 40px rgba(0, 0, 0, 0.971);
-}
-
-.MilletRava h1,
-.MilletRoti h1,
-.MilletDryIdlyDosaBatter h1,
-.WhyChooseOurProducts h1{
-  font-size: 26px;
-  font-weight: 800;
-  margin: 0 0 12px;
-  color: var(--text-normal);
-  -webkit-text-fill-color: initial;
-  background: none;
-}
-.MilletRava p,
-.MilletRoti p,
-.MilletDryIdlyDosaBatter p,
-.WhyChooseOurProducts p{
-  font-size: 15px;
-  color: #555;
-  line-height: 1.8;
-  margin: 8px 0;
-}
-
-
-.MilletRava h2,
-.MilletRoti h2,
-.MilletDryIdlyDosaBatter h2,
-.WhyChooseOurProducts h2{
-  margin-top: 15px;
-  font-size: 18px;
-  font-weight: 700;
-  color: var(--site-blue);
-}
-
-
 
 .all{
 display: flex;
   flex-wrap: wrap;
   gap: 25px;
 }
-/* Responsive
-@media(max-width: 900px){
+
+@media(max-width: 750px){
   .productLine{
     padding: 25px 18px;
   }
@@ -130,17 +43,4 @@ display: flex;
     font-size: 32px;
   }
 
-  .MilletRava,
-  .MilletRoti,
-  .MilletDryIdlyDosaBatter,
-  .WhyChooseOurProducts{
-    padding: 18px 18px;
-  }
-
-  .MilletRava h1,
-  .MilletRoti h1,
-  .MilletDryIdlyDosaBatter h1,
-  .WhyChooseOurProducts h1{
-    font-size: 22px;
-  }
-} */
+}
