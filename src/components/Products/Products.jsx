@@ -2,8 +2,6 @@ import React from "react";
 import "./Products.css";
 import ProductComponent from "./productComponent";
 
-
-
 function Products() {
   return (
     <>
@@ -19,7 +17,7 @@ function Products() {
       </div>
       <div className="all">
         <ProductComponent
-          imgArr={[img1,img2,img3,img4]}
+          imgArr={[1,2,3,4]}
           alter={"MilletDryIdlyDosaBatter"}
           cn={"MilletRava"}
           heading1={"Millet Rava"}
@@ -33,7 +31,7 @@ function Products() {
             Millet."
         />
         <ProductComponent
-          imgArr={[img7]}
+          imgArr={[7,]}
           alter={"MilletRoti"}
           cn={"MilletRoti"}
           heading1={"Millet Roti"}
@@ -47,7 +45,7 @@ function Products() {
           para3="Daily meals, health-conscious consumers, and specialty diets."
         />
         <ProductComponent
-          imgArr={[img5,img6]}
+          imgArr={[5, 6]}
           alter={"MilletDryIdlyDosaBatter"}
           cn={"MilletDryIdlyDosaBatter"}
           heading1={"Millet Dry Idly/Dosa Batter"}
