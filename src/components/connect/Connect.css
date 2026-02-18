@@ -1,36 +1,44 @@
-
-.ConnectPara{
-    font-size: 30px;
-    display: flex;
-    text-align: justify;
-    width: 750px;
-    line-height: 1.7;
-    margin: 20px;
-    padding-top: 35px;
+.ConnectPara {
+  font-size: 30px;
+  display: flex;
+  text-align: justify;
+  width: 750px;
+  line-height: 1.7;
+  margin: 20px;
+  padding-top: 35px;
+  flex: 1;
+  text-wrap: wrap;
 }
-.image{
-    display: inline-flex;
-    
+.image {
+  display: inline-flex;
+  flex: 1;
 }
-.image img{
-height: 750px;
-display: inline-flex;
-min-width: 700px;
-border-radius:70px;
+.image img {
+  height: 750px;
+  width: 100%;
+  display: inline-flex;
+  min-width: 350px;
+  max-width: 700px;
+  border-radius: 70px;
 }
-.main{
-    display: flex;
-    flex-wrap: wrap;
-     padding: 30px 10%;
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px 10%;
+  align-items: center;
+  justify-content: center;
 }
-.main1{
-    display: inline;
+.main1 {
+  display: inline;
 }
 
+.no-break{
+  text-wrap: none;
+}
 
-
-
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
+  
+  
   .main {
     flex-direction: column;
     align-items: center;
@@ -52,6 +60,7 @@ border-radius:70px;
     width: 100%;
     justify-content: center;
     align-items: center;
+    order: -1;
   }
 
   .image img {
@@ -62,10 +71,7 @@ border-radius:70px;
   }
 }
 
-
 @media (max-width: 576px) {
- 
-  
   .ConnectPara {
     font-size: 18px;
     line-height: 1.6;
@@ -83,28 +89,29 @@ border-radius:70px;
     gap: 12px;
     margin-top: 20px;
   }
-  
 
-.single {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
+  .single {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
 
-  font-size: 14px;
-  padding: 6px 10px;
+    font-size: 14px;
+    padding: 6px 10px;
 
-  width: fit-content;
-  max-width: 100%;
+    width: fit-content;
+    max-width: 100%;
 
-  overflow-wrap: anywhere;
+    overflow-wrap: anywhere;
+  }
 }
-
-}
-
 
 @media (max-width: 390px) {
- 
-  
+
+  .make-it-inline{
+    display: flex;
+    flex-direction: column;
+    
+  }
   .ConnectPara {
     font-size: 18px;
     line-height: 1.6;
@@ -122,21 +129,18 @@ border-radius:70px;
     gap: 12px;
     margin-top: 20px;
   }
-  
 
-.single {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
+  .single {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
 
-  font-size: 14px;
-  padding: 6px 10px;
+    font-size: 14px;
+    padding: 6px 10px;
 
-  width: fit-content;
-  max-width: 100%;
+    width: fit-content;
+    max-width: 100%;
 
-  overflow-wrap: anywhere;
+    overflow-wrap: anywhere;
+  }
 }
-
-}
-
