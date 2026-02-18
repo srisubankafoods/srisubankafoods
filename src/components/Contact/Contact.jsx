@@ -2,6 +2,9 @@ import React from "react";
 import Heading from "../ui/Heading/Heading";
 import "./Contact.css";
 import { useState } from "react";
+import { FaMapMarkerAlt } from "react-icons/fa";
+import { IoSend } from "react-icons/io5";
+
 
 function Contact() {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -54,6 +57,7 @@ function Contact() {
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
+          <span className="align-center"><FaMapMarkerAlt color="red" size={40}/>Regd Off : 54, 2nd Street, Sriramapuram, Srirangam, Trichy – 620006. Tamilnadu. India.</span>
         </div>
         {windowWidth > 1185 && <hr className="horizontal-rule" />}
         <div className="form-wrapper">
@@ -111,7 +115,7 @@ function Contact() {
             </div>
 
             <button type="submit" className="submit-btn">
-              Submit
+              <IoSend /><span>Submit</span>
             </button>
           </form>
         </div>
