@@ -52,7 +52,6 @@
 }
 
 .nav-text {
-  /* position: relative; */
   z-index: 2; 
   font-family: 'Inter', sans-serif;
   font-weight: 500;
@@ -74,10 +73,10 @@
 
 .active-bg {
   position: absolute;
-  top: 0;
+  top: 30px;
   left: 0;
   right: 0;
-  bottom: 0;
+  bottom:30px;
   background-color: var(--bg-page); 
   border-radius: 12px;
   border: 1px solid var(--accent-cyan);
@@ -118,22 +117,29 @@
 }
 
 
-@media (max-width: 768px) {
-  .nav-wrapper {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 15px;
-  }
-
-  .shopName h1 {
+@media (max-width: 850px) {
+  .active-bg {
+    top: 4px;
+    left: 0;
+  right: 0;
+  bottom:4px;
+  
+}
+.nav-wrapper {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 15px;
+}
+  
+.shopName h1 {
     font-size: 18px;
   }
-
+  
   .shopName p {
     font-size: 13px;
   }
-
+  
   .nav-container {
     justify-content: center;
     gap: 10px;
@@ -146,4 +152,15 @@
   .nav-text {
     font-size: 14px;
   }
+  
+  .nav-wrapper .one img {
+  width: 20%;
+  padding:0;
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  }
 }
+

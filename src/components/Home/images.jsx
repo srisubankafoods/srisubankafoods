@@ -21,8 +21,7 @@ function Images() {
   ];
   return (
     <>
-      <Heading heading={"Eat smart. Eat Millets."} 
-      subHeading={"Sustainable,healthy,and delicious choices for every day."}/>
+   
 
       <div className="orbit-scene">
         <div className="orbit-container">

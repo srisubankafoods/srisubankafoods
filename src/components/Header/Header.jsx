@@ -9,6 +9,7 @@ const Header = () => {
 
   return (
     <nav className="nav-wrapper">
+      
       <div className="one">
       <img src={logo} alt="" />
       </div>
