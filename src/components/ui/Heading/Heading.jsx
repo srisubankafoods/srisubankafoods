@@ -1,7 +1,7 @@
 import React from "react";
 import "./Heading.css";
 
-function Heading({ heading, subHeading = "",para }) {
+function Heading({ heading, subHeading = "",para="" }) {
   return (
     <div className="heading-container ">
       <h1 className="heading ">{heading}</h1>
