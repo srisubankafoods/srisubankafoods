@@ -72,15 +72,14 @@
 
 .icon {
   background-color: var(--site-blue);
-  width: 85px;
-  height: 85px;
+  
   border-radius: 50%;
   border: 5px solid white;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-left: -25px;
-  z-index: 2;
+  z-index: -1;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 .icon-text {
@@ -98,8 +97,9 @@
 @media (max-width:576){
 
 .icon {
+    
+
   background-color: var(--site-blue);
- 
   border-radius: 50%;
   border: 5px solid white;
   display: flex;
@@ -112,6 +112,7 @@
   overflow-wrap: anywhere;
    box-sizing: border-box;
   max-width: 100%;
+  
 }
 .icon-text {
   color: white;
@@ -129,7 +130,6 @@
 
 .icon {
   background-color: var(--site-blue);
- 
   border-radius: 50%;
   border: 5px solid white;
   display: flex;
