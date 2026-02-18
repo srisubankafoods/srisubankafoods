@@ -21,7 +21,7 @@ costly infrastructure or production investments.
           </span>
           <span className="iconPackage">
             <span className="single">
-              <Icon iconImg={<FaPhoneVolume />} iconText={"+91 99760 43034"} />
+              <Icon iconImg={<FaPhoneVolume />} iconText={"CALL NOW: +91 99760 43034"} />
             </span>
             <span className="single">
               <Icon
@@ -37,7 +37,7 @@ costly infrastructure or production investments.
             </span> 
           </span>
         </div>
-        <div className="image   ">
+        <div className="image">
           <img src={connectImage} alt="connection" />
         </div>
       </div>
