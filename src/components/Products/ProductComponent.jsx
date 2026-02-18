@@ -21,6 +21,7 @@ const ProductComponent = ({
   
   return (
     <>
+    
       <div className={cn}>
         <ProductSlide images={imgArr} alter={alter} />
         <h1>{heading1}</h1>
@@ -34,6 +35,7 @@ const ProductComponent = ({
         {paranew3 && <p>{paranew3}</p>}
         {paranew4 && <p>{paranew4}</p>}
       </div>
+      
     </>
   );
 };

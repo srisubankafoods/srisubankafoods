@@ -1,20 +1,16 @@
 import React from "react";
 import "./Products.css";
 import ProductComponent from "./productComponent";
-
+import  Heading from "./../ui/Heading/Heading.jsx"
 function Products() {
   return (
     <>
-      <div className="productLine">
-        <h1>Product Line</h1>
-        <p>
-          We are committed to promoting nutritious traditional grains by
+    <Heading heading="Product Line" subHeading="We are committed to promoting nutritious traditional grains by
           transforming millets into convenient, modern food solutions. Our
           millet-based products combine health benefits, authentic taste, and
           ease of preparation — ideal for both domestic and international
-          markets.
-        </p>
-      </div>
+          markets."/>
+      
       <div className="all">
         <ProductComponent
           imgArr={[1,2,3,4]}

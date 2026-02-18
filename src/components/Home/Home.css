@@ -1,7 +1,84 @@
 :root {
   --site-blue: #4662ab;
   --site-green: #aab847;
+  --bg-product:#f6f9ff;
 }
-.homehead h1{
+.homehead{
+    display: flex;
+    max-width: 97.5%;
+    margin: 20px;
+    width: 100%;
+    flex-direction: column;   
+    justify-content: center;
+    align-items: center; 
+    background-color:var(--bg-product) ;
+}
+.homehead .h11,.homehead .h1{
+    flex-direction: row;
+}
+.homehead .h1 {
+    font-size: 3rem;
+    color: var(--site-blue);
     
+}
+.homehead .h11 {
+    font-size: 3rem;
+    color: var(--site-green);
+}
+.homehead h4 {
+    font-size: 2.2rem; 
+}
+/*responsive*/
+@media (max-width:1023px){
+    .homehead{
+    max-width: 95%;  
+       
+}
+        .homehead .h1 {
+    font-size: 2rem;
+    color: var(--site-blue);
+}
+.homehead .h11 {
+    font-size: 2rem;
+    color: var(--site-green);
+}
+.homehead h4 {
+    font-size: 1.3rem; 
+}
+}
+@media (max-width:767px){
+      .homehead{
+    max-width: 91%;  
+       
+}
+    .homehead .h1 {
+    font-size: 2rem;
+    color: var(--site-blue);
+    
+}
+.homehead .h11 {
+    font-size: 2rem;
+    color: var(--site-green);
+}
+.homehead h4 {
+    font-size: 0.8rem; 
+}
+
+}
+@media (max-width:393px){
+   .homehead{
+    max-width: 89%;  
+}
+    .homehead .h1 {
+    font-size: 2rem;
+    color: var(--site-blue);
+    
+}
+.homehead .h11 {
+    font-size: 2rem;
+    color: var(--site-green);
+}
+.homehead h4 {
+    font-size: 0.8rem; 
+}
 }

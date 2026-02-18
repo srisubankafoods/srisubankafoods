@@ -1,6 +1,5 @@
 import React from "react";
 import "./images.css";
-import Heading from "./../ui/Heading/Heading";
 import logo from "./pics/logo2.png";
 import flour from "./.././Products/images/flour.jpeg";
 import flour2 from "./.././Products/images/flour2.jpeg";
@@ -21,8 +20,6 @@ function Images() {
   ];
   return (
     <>
-   
-
       <div className="orbit-scene">
         <div className="orbit-container">
           <div className="orbit-center">
