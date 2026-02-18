@@ -4,6 +4,8 @@ import Products from "./components/Products/Products";
 import Connect from "./components/connect/Connect";
 import Home from "./components/Home/Home";
 import React from "react";
+import About from "./components/About/About";
+import Footer from "./components/Footer/Footer";
 function App() {
   return (
     <>
@@ -12,6 +14,8 @@ function App() {
       {/* <Products /> */}
       <Contact />
       <Connect />
+      <Contact />
+      <Footer />
     </>
   );
 }

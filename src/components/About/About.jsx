@@ -23,31 +23,15 @@ function About() {
         <div className="text-content-wrapper">
           <div className="text">
             <p>
-              For more than a decade, we have been dedicated to bringing
-              traditional foods back to life and making them meaningful in
-              today’s fast-paced world. With over 10 years of experience, our
-              journey started with a clear vision: heritage recipes should never
-              fade away — they should adapt to modern lifestyles while retaining
-              their original taste and nutritional richness.
+              For over a decade, we have been passionate about reviving traditional foods and making them relevant for today’s fast-moving world. With more than 10 years of experience, our journey began with a simple belief: heritage foods should not be lost overtime — they should evolve to suit modern lifestyles while preserving their authentic taste and nutritional value.
             </p>{" "}
             <p>
               {" "}
-              We focus on reinventing age-old recipes into convenient,
-              ready-to-cook and ready-to-eat formats, allowing people to savour
-              authentic flavours without spending hours in the kitchen. By
-              blending time-tested culinary wisdom with contemporary food
-              processing techniques, we create products that balance tradition
-              with innovation in every bite.
+              We specialize in transforming time-honoured recipes into convenient, ready-to-use and ready-to-eat products, enabling consumers to enjoy traditional flavours without the complexity of lengthy preparation. By combining ancestral knowledge with modern food technology, we ensure every product reflects both authenticity and innovation.
             </p>{" "}
             <p>
               {" "}
-              Our advanced manufacturing facility is built to align with
-              international food safety and quality standards, ensuring clean
-              processing, uniform quality, and dependable shelf stability. From
-              carefully selecting premium ingredients to utilizing modern
-              packaging methods, we strive to provide products that are safe,
-              wholesome, and well-suited for both local and global markets.
-            </p>
+              Our state-of-the-art manufacturing facility is designed to meet global food safety and quality standards, ensuring hygienic processing, consistent quality, and reliable shelf life. From sourcing quality ingredients to advanced packaging solutions, we are committed to delivering products that are safe, nutritious, and suitable for both domestic and international markets.</p>
           </div>
           <button className="contact-button">
             <div className="center-it">
