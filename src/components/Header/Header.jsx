@@ -9,9 +9,12 @@ const Header = () => {
 
   return (
     <nav className="nav-wrapper">
+      <div className="one">
       <img src={logo} alt="" />
+      </div>
         <div className="shopName">
-            <Heading heading={"Sri Subanka Foods Pvt Ltd"} subHeading={"Manufactures of Value Added Natural Food Products"}/>
+            <h1>Sri Subanka Foods Pvt Ltd</h1>
+            <h5>Manufactures of Value Added Natural Food Products</h5>
         </div>
       <ul className="nav-container">
         {navItems.map((item) => (
