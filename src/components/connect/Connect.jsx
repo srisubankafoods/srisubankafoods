@@ -14,15 +14,9 @@ function Connect() {
         <div className="main1">
           <span className="ConnectPara">
             <p>
-              Partner with Sri Subanka Foods Pvt Ltd and unlock a world of
-              premium, authentic traditional food products—crafted to perfection
-              and ready to be launched under your own brand. With our
-              state-of-the-art manufacturing facilities, strict quality
-              standards, and large-scale production capacity, you can grow
-              faster than ever without spending lakhs on infrastructure,
-              machinery, or factory setup. We handle the production, you focus
-              on building your brand, expanding your market, and scaling your
-              business to the next level.
+              Partner with Sri Subanka Foods Pvt Ltd to bring high-quality traditional food products to market under your
+own brand. Our advanced manufacturing capabilities allow you to scale your business without the need for
+costly infrastructure or production investments.
             </p>
           </span>
           <span className="iconPackage">

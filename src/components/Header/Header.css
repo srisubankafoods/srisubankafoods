@@ -8,7 +8,10 @@
   --text-normal: #333333;
   --site-gradient: linear-gradient( var(--site-blue), var(--site-green));
 }
-
+.nav-wrapper img {
+  width: 7%;
+  height: 7%;
+}
 .nav-wrapper {
   background-color: var(--nav-surface);
   padding: 10px;

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import "./Header.css";
+import logo from  './../../assets/logo.png'
 import Heading from "../ui/Heading/Heading";
 const Header = () => {
   const [active, setActive] = useState("Home");
@@ -8,6 +9,7 @@ const Header = () => {
 
   return (
     <nav className="nav-wrapper">
+      <img src={logo} alt="" />
         <div className="shopName">
             <Heading heading={"Sri Subanka Foods Pvt Ltd"} subHeading={"Manufactures of Value Added Natural Food Products"}/>
         </div>

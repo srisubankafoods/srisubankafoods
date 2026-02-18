@@ -1,12 +1,10 @@
 import React from 'react'
 import './Home.css'
-import logo from "./pics/logo2.png"
+import Images from './images.jsx'
 function Home() {
   return (
     <>
-    <div className="logo">
-     <img src={logo} alt="LOGO" />
-     </div>
+    <Images />
     </>
   )
 }
