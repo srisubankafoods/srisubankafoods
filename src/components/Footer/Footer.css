@@ -12,24 +12,20 @@
     margin: 10% auto 0 ;
 }
 
-.company-details{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
 .company-details h1{
+    text-align: center;
     color:var(--site-blue);
 }
 
 .company-details h2{
+    text-align: center;
     color:var(--site-green);
 }
 
 .company-details img{
     width: 120px;
     height: 120px;
+    margin: auto;
 }
 
 .navigators ul, .social-links ul{
@@ -50,10 +46,4 @@
 
 .copyright-text{
     color: #888888;
-}
-
-@media screen and (max-width:900px) {
-    .company-details h1, .company-details h2{
-        text-align: center;
-    }
 }
