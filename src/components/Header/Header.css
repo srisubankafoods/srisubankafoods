@@ -8,9 +8,15 @@
   --text-normal: #333333;
   --site-gradient: linear-gradient( var(--site-blue), var(--site-green));
 }
-.nav-wrapper img {
-  width: 7%;
-  height: 7%;
+.nav-wrapper .one img {
+  width: 100%;
+  height: 100%;
+  padding:0;
+  margin: 0 10px;
+}
+
+.nav-wrapper .one{
+  flex-basis: 8%;
 }
 .nav-wrapper {
   background-color: var(--nav-surface);
@@ -30,6 +36,8 @@
   margin: 0;
   padding: 0;
   gap: 10px;
+  flex-basis: 30%;
+
 }
 
 .nav-item {
@@ -91,9 +99,25 @@
   display: inline-block;
   font-weight: 1000; 
   color: var(--site-gradient);  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-basis: 90%;
   
   width: 1200px;
 }
+.shopName h1{
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--site-blue);
+  margin-bottom: 0.2rem;
+}
+.shopName h5{
+  font-size: 0.7rem;
+  color: var(--site-green);
+}
+
+
 @media (max-width: 768px) {
   .nav-wrapper {
     flex-direction: column;
