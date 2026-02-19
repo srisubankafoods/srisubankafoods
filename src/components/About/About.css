@@ -98,8 +98,11 @@
         min-width: 100%;
     }
     
-    .text-content-wrapper{
+    .text-content-wrapper { 
         padding: 40px 0 10px;
         min-width: 100%;
+    }
+    .about-wrapper h3{
+        font-size: 22px;
     }
 }
