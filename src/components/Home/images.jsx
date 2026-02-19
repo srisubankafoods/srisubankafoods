@@ -11,7 +11,7 @@ import chappathi from "./.././Products/images/chappathi.jpeg";
 function Images() {
   const logos = [
     { name: "flour", img: flour },
-    { name: "flour2", img: flour2 },
+    { name: "flour2", img: flour2 },  
     { name: "idly", img: idly },
     { name: "milletrava", img: milletrava },
     { name: "dosaidly", img: dosaidly },
