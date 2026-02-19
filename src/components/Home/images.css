@@ -40,8 +40,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
     border: 2px solid var(--site-blue  ) ;
+  box-shadow: 0 0 105px color-mix(in srgb, var(--site-blue) 60%, transparent);
   }
  
   .center-card img {
@@ -81,7 +81,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 1px 1px 10px 10px rgba(0, 0, 0, 0.1  );
+  box-shadow: 0 0 35px color-mix(in srgb, var(--site-blue) 60%, transparent);
+    
      border: 2px solid var(--site-blue  ) ;
     /* Keeps image straight while orbit rotates */
     transform: rotate(calc(-1 * var(--angle)));
@@ -112,17 +113,11 @@
     .orbit-container{
       width: 850px;
       height: 850px;
-      --orbit-radius: 365px;
+      --orbit-radius: 295px;
     }
   }
 
-  @media (max-width: 1399px){
-    .orbit-container {
-      width: 700px;
-      height: 700px;
-      --orbit-radius: 280px;
-    }
-  }
+
 
   @media (max-width: 1023px) {
      .orbit-scene {
@@ -133,7 +128,7 @@
     .orbit-container {
       width: 520px;
       height: 520px;
-      --orbit-radius: 190px;
+      --orbit-radius: 160px;
     }
      .orbit-scene {
     margin-left: 0 px;
@@ -141,35 +136,42 @@
     .center-card {
       width: 240px;
       height: 240px;
+        box-shadow: 0 0 60px color-mix(in srgb, var(--site-blue) 60%, transparent);
+
     }
 
     .logo-circle {
       width: 120px;
       height: 120px;
+              box-shadow: 0 0 20px color-mix(in srgb, var(--site-blue) 60%, transparent);
+              
     }
   }
-
+  
   @media (max-width: 767px) {
-     .orbit-scene {
-    margin-left: 4.7%;
-     max-width: 91%;
-     height: 50vh;
-  }
+    .orbit-scene {
+      margin-left: 4.7%;
+      max-width: 91%;
+      height: 50vh;
+    }
     .orbit-container {
       width: 360px;
       height: 360px;
       --orbit-radius: 120px;
     }
      
-
+    
     .center-card {
       width: 190px;
       height: 190px;
+      box-shadow: 0 0 25px color-mix(in srgb, var(--site-blue) 60%, transparent);
+      
     }
-
+    
     .logo-circle {
       width: 100px;
       height: 100px;
+      box-shadow: 0 0 10px color-mix(in srgb, var(--site-blue) 60%, transparent);
     }
   }
 
@@ -188,6 +190,8 @@
     .center-card {
       width: 140px;
       height: 140px;
+        box-shadow: 0 0 30px color-mix(in srgb, var(--site-blue) 60%, transparent);
+
     }
 
     .logo-circle {
@@ -199,7 +203,7 @@
 .orbit-container {
       width: 230px;
       height: 230px;
-      --orbit-radius:85px;
+      --orbit-radius:75px;
     }
      .orbit-scene {
     margin-left: 5%;
@@ -210,11 +214,14 @@
     .center-card {
       width: 110px;
       height: 110px;
+      box-shadow: 0 0 20px color-mix(in srgb, var(--site-blue) 60%, transparent);
     }
 
     .logo-circle {
       width: 70px;
       height: 70px;
+              box-shadow: 0 0 5px color-mix(in srgb, var(--site-blue) 60%, transparent);
+
     }
 
 }
