@@ -1,19 +1,22 @@
 import React from "react";
 import "./Products.css";
 import ProductComponent from "./productComponent";
-import  Heading from "./../ui/Heading/Heading.jsx"
+import Heading from "./../ui/Heading/Heading.jsx";
 function Products() {
   return (
     <>
-    <Heading heading="Product Line" subHeading="We are committed to promoting nutritious traditional grains by
+      <Heading
+        heading="Product Line"
+        subHeading="We are committed to promoting nutritious traditional grains by
           transforming millets into convenient, modern food solutions. Our
           millet-based products combine health benefits, authentic taste, and
           ease of preparation — ideal for both domestic and international
-          markets."/>
-      
+          markets."
+      />
+
       <div className="all">
         <ProductComponent
-          imgArr={[1,2,3,4]}
+          imgArr={[1, 2, 3, 4]}
           alter={"MilletDryIdlyDosaBatter"}
           cn={"MilletRava"}
           heading1={"Millet Rava"}
@@ -27,7 +30,7 @@ function Products() {
             Millet."
         />
         <ProductComponent
-          imgArr={[7,]}
+          imgArr={[7]}
           alter={"MilletRoti"}
           cn={"MilletRoti"}
           heading1={"Millet Roti"}
@@ -55,14 +58,6 @@ function Products() {
           para3={
             "Daily meals, health-conscious consumers, and specialty diets."
           }
-        />
-        <ProductComponent
-          cn={"WhyChooseOurProducts"}
-          heading1={"Why Choose Our Products ?"}
-          paranew1={"  Made from carefully sourced traditional millets"}
-          paranew2={" Hygienically processed in a modern facility"}
-          paranew3={" Export-ready packaging"}
-          paranew4={" Suitable for health-conscious global consumers"}
         />
       </div>
     </>

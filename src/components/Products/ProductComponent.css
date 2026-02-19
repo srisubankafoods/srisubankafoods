@@ -28,33 +28,16 @@
   position: relative;
   overflow: hidden;
   width: 500px;
-
+  max-height: fit-content;
   margin-top: 60px;
   font-weight: 200px;
   background-color: var(--bg-product);
   height: 800px;
 }
-.WhyChooseOurProducts{
-    margin-left: 10%;
-  text-align: center;
- background-color: var(--bg-product);
-  padding: 26px 30px;
-  margin-bottom: 25px;
-  border-radius: 18px;
-  box-shadow: 0px 10px 25px rgba(0,0,0,0.08);
-  border: 1px solid rgba(0,0,0,0.06);
-  transition: 0.3s ease;
-  position: relative;
-  margin-top: 20px;
-  overflow: hidden;
-  width: 1520px;  
-  margin-bottom: -50px;
-  
-}
+
 .MilletRava::before,
 .MilletRoti::before,
-.MilletDryIdlyDosaBatter::before,
-.WhyChooseOurProducts::before{
+.MilletDryIdlyDosaBatter::before{
   content: "";
   position: absolute;
   left: 0;
@@ -88,7 +71,7 @@
 .WhyChooseOurProducts p{
   font-size: 15px;
   color: #000;
-  line-height: 2.2;
+  line-height: 1.2;
   text-align: justify;
   margin: 8px 0;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -113,6 +96,45 @@ max-width: 100%;
   border-radius:7px;
   object-fit: cover;  
 }
+.productbtns {
+  display: flex;
+  align-items: center;
+  justify-content:flex-start;
+  gap: 2px;
+  margin: 15px 0;
+}
+
+.productbtns button {
+  padding: 12px 28px;
+  background: transparent;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  top: 30px;
+  left: 0;
+  right: 0;
+  bottom:30px;
+  background-color: #ffffff; 
+  width: 100%; 
+}
+  
+
+.productbtns button h2 {
+  margin: 4px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+
+.productbtns button.active {
+  background: #4662ab;
+  color: white;
+  border: 2px solid #4662ab;
+}
+
+
+
 @media(max-width:1000px){
   .MilletRava{
   margin: 21%;
