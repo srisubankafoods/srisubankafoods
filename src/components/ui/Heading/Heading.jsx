@@ -1,6 +1,5 @@
 import React from "react";
 import "./Heading.css";
-alert(window.innerWidth + "X" + window.innerHeight)
 function Heading({ heading ="", subHeading = "",para="" }) {
   return (
     <div className="heading-container ">
