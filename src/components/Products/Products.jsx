@@ -1,6 +1,6 @@
 import React from "react";
 import "./Products.css";
-import ProductComponent from "./productComponent";
+import ProductComponent from "./ProductComponent";
 import Heading from "./../ui/Heading/Heading.jsx";
 function Products() {
   return (
