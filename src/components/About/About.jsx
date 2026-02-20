@@ -10,7 +10,7 @@ import { FaCircleArrowRight } from "react-icons/fa6";
 
 function About() {
   const handleNavToConnect = () =>{
-    document.getElementById('connect-page').scrollIntoView({behavior:"smooth"});
+    document.getElementById('Connect-page').scrollIntoView({behavior:"smooth"});
   }
 
   return (

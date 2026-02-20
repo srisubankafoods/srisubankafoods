@@ -9,6 +9,7 @@ import { SlGlobe } from "react-icons/sl";
 function Connect() {
   return (
     <>
+    <div id="Connect-page">
       <Heading heading="Connect With Us" subHeading="Your taste, our passion" />
       <div className="main">
         <div className="main1">
@@ -63,6 +64,7 @@ function Connect() {
         <div className="image">
           <img src={connectImage} alt="connection" />
         </div>
+      </div>
       </div>
     </>
   );
