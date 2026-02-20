@@ -2,7 +2,7 @@ import React from "react";
 import "./WhyChooseUs.css";
 import Heading from "../ui/Heading/Heading";
 import whyChooseCoverImage from "../../assets/why-choose-us-cover.png";
-import WcuStatsCard from "./wcuStatsCard";
+import WcuStatsCard from "./WcuStatsCard";
 
 function WhyChooseUs() {
   return (
