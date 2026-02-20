@@ -7,22 +7,19 @@ import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Footer from "./components/Footer/Footer";
 import WhyChooseUs from "./components/WhyChooseUs/WhyChooseUs";
+import "./App.css"
 function App() {
-
   return (
     <>
       <Header />
-      <div id="Home-page1"></div>
-      <Home />
-      <div id="Products-page1"></div>
-      <Products />
-      <div id="first"></div>
-      <WhyChooseUs/>
-      <About/>
-      <Connect />
-      <div id="first"></div>
-      <Contact />
-      <Footer />
+        <Home />
+        <Products />
+        <WhyChooseUs />
+        <About />
+        <Connect />
+        <Contact />
+        <Footer />
+      
     </>
   );
 }

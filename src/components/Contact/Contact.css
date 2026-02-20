@@ -5,6 +5,10 @@
   --text-normal: #333333;
 }
 
+#Contact-page{
+  scroll-margin-top: 50px;
+}
+
 .contact-container {
   padding: 30px 10%;
   margin: 40px auto;
