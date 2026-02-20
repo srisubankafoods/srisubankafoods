@@ -1,6 +1,7 @@
 .about-container{
     padding: 30px 10%;
     margin: 40px auto;
+    overflow: hidden;
 }
 
 .to-flex{
