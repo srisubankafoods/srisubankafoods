@@ -111,9 +111,3 @@
         font-size: 22px;
     }
 }
-
-@media (min-width:900) and (max-width: 1920px) {
-  #About-page{
-    scroll-margin-top:100px;
-}
-}

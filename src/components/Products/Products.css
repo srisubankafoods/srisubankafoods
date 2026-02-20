@@ -5,7 +5,7 @@
   --site-gradient: linear-gradient(90deg, var(--site-blue), var(--site-green));
 }
 #Products-page{
-    scroll-margin-top:70px;
+    scroll-margin-top:50px;
 }
 .productLine {
   padding: 40px 80px;
@@ -52,10 +52,4 @@
   .product-second-line {
     font-size: 1rem;
   }
-}
-
-@media (min-width:900) and (max-width: 1920px) {
-  #Products-page{
-    scroll-margin-top:150px;
-}
 }
