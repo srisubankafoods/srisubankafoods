@@ -38,24 +38,32 @@ function Footer() {
         <div class="social-links">
           <ul>
             <li>
-              <a href=""><IoMail size={30} color="#4662ab"/></a>
+              <a href="">
+                <IoMail size={30} color="#4662ab" />
+              </a>
             </li>
             <li>
-              <a href=""><IoCall size={30} color="#4662ab"/></a>
+              <a href="">
+                <IoCall size={30} color="#4662ab" />
+              </a>
             </li>
             <li>
-              <a href=""><FaMapMarkerAlt size={30} color="#4662ab"/></a>
+              <a href="">
+                <FaMapMarkerAlt size={30} color="#4662ab" />
+              </a>
             </li>
             <li>
-              <a href=""><RiGlobalLine size={30} color="#4662ab"/></a>
+              <a href="">
+                <RiGlobalLine size={30} color="#4662ab" />
+              </a>
             </li>
           </ul>
         </div>
-
-        <p className="copyright-text">
-          Copyrights {new Date().getFullYear()} &copy; Sri Subanks Foods
-        </p>
       </div>
+      <hr className="footer-divider2" />
+      <p className="copyright-text">
+        Copyrights {new Date().getFullYear()} &copy; Sri Subanks Foods
+      </p>
     </>
   );
 }
