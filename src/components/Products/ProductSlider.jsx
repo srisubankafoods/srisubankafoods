@@ -11,7 +11,7 @@ import img6 from "./images/idly.jpeg";
 import img7 from "./images/chappathi.jpeg";
 
 function ProductSlide({ images, alter }) {
-  console.log(images);
+
 
   if (!images || images.length === 0) return null;
   return (

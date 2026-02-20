@@ -20,8 +20,8 @@ function Products() {
           alter={"MilletDryIdlyDosaBatter"}
           cn={"MilletRava"}
           heading1={"Millet Rava"}
-          heading2={"Ideal for:"}
-          heading3={"Variants:"}
+          heading2={"Ideal for"}
+          heading3={"Variants"}
           para1="Finely processed from premium-quality millets, our Millet Rava is a
             versatile ingredient suitable for a variety of traditional and
             modern dishes"
@@ -34,13 +34,13 @@ function Products() {
           alter={"MilletRoti"}
           cn={"MilletRoti"}
           heading1={"Millet Roti"}
-          heading2={"Benefits:"}
-          heading3={"Ideal for:"}
+          heading2={"Benefits"}
+          heading3={"Ideal for"}
           para1=" Our Millet Roti offers a wholesome alternative to wheat-based
             flatbreads, made from carefully selected millets to deliver both
             nutrition and taste."
-          para2="  Gluten-free option  High in calcium and iron  Suitable for
-            diabetic-friendly diets  Soft texture with authentic flavor"
+          para2="  Gluten-free option, High in calcium and iron ,Suitable for
+            diabetic-friendly diets ,Soft texture with flavor"
           para3="Daily meals, health-conscious consumers, and specialty diets."
         />
         <ProductComponent
@@ -48,12 +48,12 @@ function Products() {
           alter={"MilletDryIdlyDosaBatter"}
           cn={"MilletDryIdlyDosaBatter"}
           heading1={"Millet Dry Idly/Dosa Batter"}
-          heading2={"Benefits:"}
-          heading3={"Ideal for:"}
+          heading2={"Benefits"}
+          heading3={"Ideal for"}
           para1=" A convenient solution for preparing soft, traditional idlis using
             millet instead of polished rice. Our dry batter ensures consistent
             results with minimal preparation."
-          para2="  High fiber content  Better blood sugar management 
+          para2="High fiber content,Better blood sugar management,
             Nutrient-dense alternative to rice"
           para3={
             "Daily meals, health-conscious consumers, and specialty diets."

@@ -5,9 +5,8 @@
 }
 .homehead{
     display: flex;
-    max-width: 97.5%;
-    margin: 20px;
-    width: 100%;
+    max-width: 100%;
+   
     flex-direction: column;   
     justify-content: center;
     align-items: center; 
@@ -28,12 +27,8 @@
 .homehead h4 {
     font-size: 2.2rem; 
 }
-/*responsive*/
-@media (max-width:1023px){
-    .homehead{
-    max-width: 95%;  
-       
-}
+
+@media (max-width:1050px){
         .homehead .h1 {
     font-size: 2rem;
     color: var(--site-blue);
@@ -43,14 +38,11 @@
     color: var(--site-green);
 }
 .homehead h4 {
-    font-size: 1.3rem; 
+    font-size: 1.6rem; 
 }
 }
 @media (max-width:767px){
-      .homehead{
-    max-width: 91%;  
-       
-}
+   
     .homehead .h1 {
     font-size: 2rem;
     color: var(--site-blue);
@@ -61,14 +53,12 @@
     color: var(--site-green);
 }
 .homehead h4 {
-    font-size: 0.8rem; 
+    font-size: 1.1rem; 
 }
 
 }
 @media (max-width:393px){
-   .homehead{
-    max-width: 89%;  
-}
+
     .homehead .h1 {
     font-size: 2rem;
     color: var(--site-blue);
