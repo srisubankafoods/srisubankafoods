@@ -3,11 +3,13 @@
   --site-green: #aab847;
   --bg-product:#f6f9ff;
 }
-
+#Home-page{
+    scroll-margin-top:var(--nav-size);
+}
 .homehead{
     display: flex;
     max-width: 100%;
-   
+    
     flex-direction: column;   
     justify-content: center;
     align-items: center; 

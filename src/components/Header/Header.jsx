@@ -4,34 +4,18 @@ import "./Header.css";
 import logo from "./../../assets/logo.png";
 import Heading from "../ui/Heading/Heading";
 const Header = () => {
+  
   const [active, setActive] = useState("Home");
-  const[w,setw] = useState("Home");
   const navItems = ["Home", "Products", "About", "Contact"];
-  // const handlew=(item)=>{
-  //   switch (item) {
-  //     case (item>=window.innerWidth):
-  //       setw(window.innerWidth);
-  //       break;
-  //     case "Products":
-  //       setw(window.innerWidth);
-  //       break;
-  //     case "About":
-  //       setw(window.innerWidth);
-  //       break;
-  //     case "Contact":
-  //         setw(window.innerWidth);
-  //       break;
-  //   }
-  // }
   const handleRouteChange = (item) => {
     switch (item) {
       case "Home":
-        document.getElementById("Home-page1").scrollIntoView({ behavior: "smooth", block: "start" }).then( window.scrollBy({ top: 300, behavior: "smooth" })
+        document.getElementById("Home-page").scrollIntoView({ behavior: "smooth", block: "start" }).then( window.scrollBy({ top: 300, behavior: "smooth" })
         );
         
         break;
       case "Products":
-        document.getElementById("Products-page1").scrollIntoView({ behavior: "smooth", block: "start" });
+        document.getElementById("Products-page").scrollIntoView({ behavior: "smooth", block: "start" });
         break;
       case "About":
         document.getElementById("About-page").scrollIntoView({ behavior: "smooth", block: "start" });
@@ -42,8 +26,10 @@ const Header = () => {
     }
   };
 
+
   return (
-    <nav className="nav-wrapper">
+    <nav
+    className={`nav-wrapper ${scrolled && "nav-hidden"}`}>
       <div className="one">
         <img src={logo} alt="logo" />
       </div>
