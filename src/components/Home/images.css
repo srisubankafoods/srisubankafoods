@@ -9,10 +9,10 @@
     justify-content: center;
     align-items: center;
     height: 115vh;
-    margin: -20.2px;
+    
     background-color: var(--bg-product);
-    margin-left: 1.05%;
-     max-width: 97.5%;
+    
+     max-width: 100%;
   }
 
   .orbit-container {
@@ -108,7 +108,7 @@
 
   @media (min-width: 1400px) {  
     .orbit-scene {
-    margin-left: 1.05%;
+  
     height: 115vh;
   }
     .orbit-container{
@@ -121,8 +121,8 @@
 
 @media (max-width: 1280px) {
      .orbit-scene {
-    margin-left: 2.4%;
-     max-width: 95.1%;
+  
+     max-width: 100%;
      height: 110vh;
   }
     .orbit-container {
@@ -149,8 +149,8 @@
   }
   @media (max-width: 1023px) {
      .orbit-scene {
-    margin-left: 2.4%;
-     max-width: 95.1%;
+
+     max-width: 100%;
      height: 65vh;
   }
     .orbit-container {
@@ -177,16 +177,16 @@
   }
    @media (max-width: 617px) {
        .orbit-scene {
-      margin-left: 4.7%;
-      max-width: 91%;
+
+      max-width: 100%;
       height: 85vh;
 
     }
    }
   @media (max-width: 587px) {
     .orbit-scene {
-      margin-left: 4.7%;
-      max-width: 91%;
+    
+      max-width: 100%;
       height: 80vh;
 
     }
@@ -218,8 +218,8 @@
       --orbit-radius:95px;
     }
      .orbit-scene {
-    margin-left: 4.1%;
-     max-width: 91.2%;
+    
+     max-width: 100%;
      height: 50vh;
   }   
 
@@ -242,8 +242,7 @@
       --orbit-radius:60px;
     }
      .orbit-scene {
-    margin-left: 5%;
-     max-width: 89.1%;
+     max-width: 100%;
      height: 45vh;
   }   
 

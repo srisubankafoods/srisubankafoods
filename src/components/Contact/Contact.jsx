@@ -43,6 +43,7 @@ function Contact() {
   };
 
   return (
+    <div id="Contact-page">
     <div className="contact-container">
       <Heading
         heading="Contact Us"
@@ -120,6 +121,7 @@ function Contact() {
           </form>
         </div>
       </div>
+    </div>
     </div>
   );
 }

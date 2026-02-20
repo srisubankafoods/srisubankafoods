@@ -14,6 +14,7 @@ function About() {
   }
 
   return (
+    <div id="About-page">
     <div className="about-container">
       <Heading heading="About" subHeading="Serving Happiness Since Day One." />
       <div className="about-wrapper to-flex">
@@ -79,6 +80,7 @@ function About() {
           />
         </div>
       </div>
+    </div>
     </div>
   );
 }

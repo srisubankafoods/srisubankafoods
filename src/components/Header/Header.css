@@ -89,6 +89,10 @@
 
 .nav-wrapper {
   animation: float 5s ease-in-out infinite;
+  position: sticky;
+  z-index: 200;
+  float: top;
+  top: 0;
 }
 
 .shopName{

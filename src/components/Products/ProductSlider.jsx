@@ -2,13 +2,13 @@ import "./ProductSlider.css";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 
-import img1 from "./images/flour.jpeg";
-import img2 from "./images/flour2.jpeg";
-import img3 from "./images/dosaidly.jpeg";
-import img4 from "./images/milletrava.jpeg";
-import img5 from "./images/dosa.jpeg";
-import img6 from "./images/idly.jpeg";
-import img7 from "./images/chappathi.jpeg";
+import img1 from "./../../assets/imagess/flour.jpeg";
+import img2 from "./../../assets/imagess/flour2.jpeg";
+import img3 from "./../../assets/imagess/dosaidly.jpeg";
+import img4 from "./../../assets/imagess/milletrava.jpeg";
+import img5 from "./../../assets/imagess/dosa.jpeg";
+import img6 from "./../../assets/imagess/idly.jpeg";
+import img7 from "./../../assets/imagess/chappathi.jpeg";
 
 function ProductSlide({ images, alter }) {
 
