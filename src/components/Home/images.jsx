@@ -1,13 +1,13 @@
 import React from "react";
 import "./images.css";
-import logo from "./pics/logo2.png";
-import flour from "./.././Products/images/flour.jpeg";
-import flour2 from "./.././Products/images/flour2.jpeg";
-import idly from "./.././Products/images/idly.jpeg";
-import milletrava from "./.././Products/images/milletrava.jpeg";
-import dosaidly from "./.././Products/images/dosaidly.jpeg";
-import dosa from "./.././Products/images/dosa.jpeg";
-import chappathi from "./.././Products/images/chappathi.jpeg";
+import logo from "./../../assets/pics/logo2.png";
+import flour from "./../../assets/imagess/flour.jpeg";
+import flour2 from "./../../assets/imagess/flour2.jpeg";
+import idly from "./../../assets/imagess/idly.jpeg";
+import milletrava from "./../../assets/imagess/milletrava.jpeg";
+import dosaidly from "./../../assets/imagess/dosaidly.jpeg";
+import dosa from "./../../assets/imagess/dosa.jpeg";
+import chappathi from "./../../assets/imagess/chappathi.jpeg";
 function Images() {
   const logos = [
     { name: "flour", img: flour },
