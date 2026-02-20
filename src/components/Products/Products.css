@@ -53,3 +53,9 @@
     font-size: 1rem;
   }
 }
+
+@media (min-width:900) and (max-width: 1920px) {
+  #Products-page{
+    scroll-margin-top:150px;
+}
+}
