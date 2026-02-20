@@ -21,6 +21,11 @@
   max-width: 700px;
   border-radius: 70px;
 }
+
+.make-it-flex span{
+  white-space: nowrap;
+}
+
 .main {
   display: flex;
   flex-wrap: wrap;
