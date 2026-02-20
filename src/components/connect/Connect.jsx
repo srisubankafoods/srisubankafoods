@@ -31,6 +31,7 @@ function Connect() {
                     <p className="no-break">+91 99760 43034</p>
                   </p>
                 }
+                anchor={"tel:+919976043034"}
               />
             </span>
             <span className="single">
@@ -42,6 +43,7 @@ function Connect() {
                     <p className="no-break">@gmail.com</p>
                   </p>
                 }
+                 anchor={"mailto:srisubankafoods@gmail.com"}
               />
             </span>
             <span className="single">
@@ -51,6 +53,7 @@ function Connect() {
                     <span>www.srisubanka</span>
                     <p className="no-break">foods.com</p>
                   </p>}
+                  anchor={"https://www.srisubankafoods.com"}
               />
             </span>
           </span>

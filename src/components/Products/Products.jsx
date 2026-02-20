@@ -5,6 +5,7 @@ import Heading from "./../ui/Heading/Heading.jsx";
 function Products() {
   return (
     <>
+    <div id="Products-page">
       <Heading
         heading="Product Line"
         subHeading="We are committed to promoting nutritious traditional grains by
@@ -59,6 +60,7 @@ function Products() {
             "Daily meals, health-conscious consumers, and specialty diets."
           }
         />
+      </div>
       </div>
     </>
   );
