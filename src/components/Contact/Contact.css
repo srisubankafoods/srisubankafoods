@@ -41,6 +41,7 @@
   align-items: center;
   justify-content: space-around;
   padding: 2%;
+  white-space: wrap;
 }
 
 .make-it-flex {
@@ -110,10 +111,9 @@
   transition: 0.3s ease-in-out;
 }
 
-@media screen and (max-width: 395px) {
+@media (max-width: 395px) {
   .contact-container {
-    padding: 5%;
-    margin: 0;
+    padding: 1%;
     
   }
 }
