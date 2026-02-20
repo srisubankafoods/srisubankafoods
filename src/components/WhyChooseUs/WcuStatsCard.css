@@ -1,0 +1,31 @@
+.stat-card-wrapper{
+  padding: 2%;
+  background-color: #ffffff;
+  min-height: 300px;
+  width: 220px;
+  height: auto;
+  margin: 30px auto;
+  padding: 10px;
+  border-radius: 8px;
+  transition-duration: 0.2s;
+  border: 1px solid var(--site-blue);
+  &:hover{
+    scale: 1.01;
+    box-shadow: 1px 1px 3px 1px var(--text-dim);
+  }
+}
+
+.stat-card-img{
+  width: 60%;
+  height: auto;
+}
+
+.stat-card-img img{
+  width: 100%;
+  height: auto;
+}
+
+.stat-card-desc{
+  vertical-align: center;
+  text-align: center;
+}

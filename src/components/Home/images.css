@@ -4,6 +4,7 @@
    --bg-product:#f6f9ff;
 }  
   .orbit-scene {
+    overflow:hidden;
     display: flex;
     justify-content: center;
     align-items: center;

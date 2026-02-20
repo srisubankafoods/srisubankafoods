@@ -7,12 +7,13 @@ function Products() {
     <>
       <Heading
         heading="Product Line"
-        subHeading="We are committed to promoting nutritious traditional grains by
+        subHeading=""
+      />
+      <h3 className="product-second-line">We are committed to promoting nutritious traditional grains by
           transforming millets into convenient, modern food solutions. Our
           millet-based products combine health benefits, authentic taste, and
           ease of preparation — ideal for both domestic and international
-          markets."
-      />
+          markets.</h3>
 
       <div className="all">
         <ProductComponent

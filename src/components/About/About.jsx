@@ -9,6 +9,10 @@ import { FaStore } from "react-icons/fa";
 import { FaCircleArrowRight } from "react-icons/fa6";
 
 function About() {
+  const handleNavToConnect = () =>{
+    document.getElementById('connect-page').scrollIntoView({behavior:"smooth"});
+  }
+
   return (
     <div className="about-container">
       <Heading heading="About" subHeading="Serving Happiness Since Day One." />
@@ -33,7 +37,7 @@ function About() {
               {" "}
               Our state-of-the-art manufacturing facility is designed to meet global food safety and quality standards, ensuring hygienic processing, consistent quality, and reliable shelf life. From sourcing quality ingredients to advanced packaging solutions, we are committed to delivering products that are safe, nutritious, and suitable for both domestic and international markets.</p>
           </div>
-          <button className="contact-button">
+          <button className="contact-button" onClick={handleNavToConnect}>
             <div className="center-it">
               <FaCircleArrowRight size={30} /> <span>Contact Now</span>
             </div>
