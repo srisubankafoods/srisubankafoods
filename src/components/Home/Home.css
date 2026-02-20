@@ -6,10 +6,20 @@
 #Home-page{
     scroll-margin-top:var(--nav-size);
 }
+.homehead{
+    display: flex;
+    max-width: 100%;
+    overflow: hidden;
+    flex-direction: column;   
+    justify-content: center;
+    align-items: center; 
+    background-color:var(--bg-product) ;
+}
+
 .homehead {
   display: flex;
   max-width: 100%;
-   overflow: hidden;
+  overflow: hidden;
   flex-direction: column;
   justify-content: center;
   align-items: center;

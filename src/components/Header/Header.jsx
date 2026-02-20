@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 import "./Header.css";
 import logo from "./../../assets/logo.png";
-import Heading from "../ui/Heading/Heading";
 const Header = () => {
   
   const [active, setActive] = useState("Home");
@@ -29,7 +28,7 @@ const Header = () => {
 
   return (
     <nav
-    className={`nav-wrapper ${scrolled && "nav-hidden"}`}>
+    className={`nav-wrapper`}>
       <div className="one">
         <img src={logo} alt="logo" />
       </div>
