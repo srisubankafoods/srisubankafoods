@@ -10,7 +10,6 @@
   transition-duration: 0.2s;
   border: 1px solid var(--site-blue);
   &:hover{
-    scale: 1.01;
     box-shadow: 1px 1px 3px 1px var(--text-dim);
   }
 }
