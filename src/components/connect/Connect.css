@@ -27,6 +27,7 @@
   padding: 30px 10%;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
 }
 .main1 {
   display: inline;

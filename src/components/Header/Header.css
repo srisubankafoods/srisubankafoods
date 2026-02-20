@@ -13,6 +13,7 @@
   height: 100%;
   padding:0;
   margin: 0 10px;
+  
 }
 
 .nav-wrapper .one{
@@ -27,6 +28,7 @@
   border: 1px solid #ddd;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
   margin: 20px;   
+  overflow: hidden;
 
 }
 

@@ -62,3 +62,13 @@
     scale: 0.75;
   }
 }
+
+@media(max-width: 395px){
+  .left-container .image-container{
+    width: 391px;
+  }
+  .left-container .image-container img {
+    width: 100%;
+    scale: 0.75;
+  }
+}
