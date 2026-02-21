@@ -111,9 +111,22 @@
   transition: 0.3s ease-in-out;
 }
 
-@media (max-width: 395px) {
+@media (max-width: 480px) {
   .contact-container {
     padding: 1%;
-    
+  }
+  .form-wrapper{
+    padding: 2%;
+    margin: 0;  
+  }
+  .make-it-flex{
+    flex-direction: column;
+  }
+
+  .form-group{
+    margin: 20px 0 0 0;;
+  }
+  .submit-btn{
+    margin-top: 10px;
   }
 }

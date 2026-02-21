@@ -79,33 +79,28 @@ function Contact() {
             <div className="make-it-flex">
               <div className="form-group">
                 <label for="name">Name</label>
-                <br />
                 <input type="text" id="name" name="name" required />
               </div>
 
               <div className="form-group">
                 <label for="company">Company Name</label>
-                <br />
                 <input type="text" id="company" name="company" required />
               </div>
             </div>
             <div className="make-it-flex">
               <div className="form-group">
                 <label for="email">Email</label>
-                <br />
                 <input type="email" id="email" name="email" required />
               </div>
 
               <div className="form-group">
                 <label for="phone">Contact Number</label>
-                <br />
                 <input type="telephone" id="phone" name="phone" required />
               </div>
             </div>
 
-            <div className="form-group">
+            <div className="form-group req-inp">
               <label for="requirements">Requirements</label>
-              <br />
               <textarea
               placeholder="I want to order/discuss..."
                 id="requirements"
