@@ -29,32 +29,20 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 .right-container .wcu-stats-container {
   display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.right-container .wcu-stats-container div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  margin: 20px;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
-
-
-@media (max-width: 767px) {
-  .right-container .wcu-stats-container {
-    flex-wrap: wrap;
-  }
-  .left-container .image-container img {
-    width: 90%;
-    scale: 1;
-  }
+.right-container .wcu-stats-container .filler2 {
+  height: 650px;
+  width: 270px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 @media (max-width: 1280px) {
@@ -79,25 +67,25 @@
 }
 
 @media (max-width: 1050px) {
-  .right-container .wcu-stats-container div {
-    margin: 10px;
+  .right-container .wcu-stats-container .filler2 {
   }
   .wcu-container {
     padding: 15px 0;
   }
-  .right-container{
+  .right-container {
     margin: 0;
   }
-  
 }
 @media (max-width: 830px) {
   .wcu-container {
     padding: 15px 0;
   }
-  .right-container .wcu-stats-container div {
-    margin: 10px;
+  .right-container .wcu-stats-container .filler2 {
+    width: 33.2vw;
+    display: flex;
+    align-items: center;
   }
-  .right-container{
+  .right-container {
     margin: 0;
     padding: 0;
   }
@@ -107,12 +95,25 @@
     padding: 0;
     margin: 0;
   }
-  
+}
+
+@media (max-width: 767px) {
+  .right-container .wcu-stats-container .filler2 {
+    width: 47.8vw;
+  }
+  .right-container .wcu-stats-container {
+    flex-wrap: wrap;
+    scale: 0.8;
+  }
+  .left-container .image-container img {
+    width: 90%;
+    scale: 1;
+  }
 }
 
 @media (max-width: 480px) {
-  .right-container .wcu-stats-container div {
-    margin-top: 0;
+  .right-container .wcu-stats-container .filler2 {
+    width: 58vw;
   }
   .left-container {
     height: auto;
@@ -125,7 +126,7 @@
 
   .right-container .wcu-stats-container {
     flex-wrap: nowrap;
-    scale: 0.8;
+    scale: 0.78;
     padding: 0;
     margin: 0;
   }
@@ -134,14 +135,14 @@
   }
   .left-container .image-container img {
     width: 100%;
-    scale:1;
+    scale: 1;
     padding: 20px 0 0 60px;
     margin: 0;
   }
 }
 @media (max-width: 430px) {
-  .right-container .wcu-stats-container div {
-    margin-top: 0;
+  .right-container .wcu-stats-container .filler2 {
+    width: 60vw;
   }
   .left-container {
     height: auto;
@@ -157,19 +158,27 @@
     scale: 0.8;
     padding: 0;
     margin: 0;
+    scale: 0.68;
   }
   .left-container .image-container {
     width: 391px;
   }
   .left-container .image-container img {
     width: 100%;
-    scale:1;
+    scale: 1;
     padding: 0;
     margin: 0;
   }
 }
 
 @media (max-width: 395px) {
+  .right-container .wcu-stats-container .filler2 {
+    width: 30vh;
+    height: 610px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
   .left-container {
     height: auto;
   }
@@ -177,13 +186,14 @@
     padding: 20px 0 0 0;
     margin: 0;
     width: 40%;
+    height: 400px;
   }
 
   .right-container .wcu-stats-container {
     flex-wrap: nowrap;
-    scale: 0.8;
+    width: 100vh;
+    scale: 0.58;
     padding: 0;
-    margin: 0;
     margin: 0;
   }
   .left-container .image-container {

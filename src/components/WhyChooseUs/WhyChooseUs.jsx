@@ -22,7 +22,7 @@ function WhyChooseUs() {
         </div>
         <div className="right-container">
           <div className="wcu-stats-container">
-            <div>
+            <div className="filler2">
               <WcuStatsCard
                 image={"ecoFoods"}
                 desc="Made from carefully sourced traditional millets"
@@ -32,7 +32,7 @@ function WhyChooseUs() {
                 desc="Hygienically processed in a modern facility"
               />
             </div>
-            <div>
+            <div className="filler2">
               <WcuStatsCard
                 image={"safePackage"}
                 desc="Export-ready packaging"
@@ -41,7 +41,7 @@ function WhyChooseUs() {
                 image={"globalHealth"}
                 desc="Suitable for health-conscious global consumers"
               />
-            </div>{" "}
+            </div>
           </div>
         </div>
       </div>
