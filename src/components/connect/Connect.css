@@ -39,7 +39,7 @@
 }
 
 .no-break {
-  text-wrap: none;
+  white-space: nowrap;
 }
 
 @media (max-width: 1300px) {
