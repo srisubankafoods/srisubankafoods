@@ -1,0 +1,49 @@
+:root {
+  --site-blue: #4662ab;
+  --site-green: #aab847;
+}
+
+.button-container {
+    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+margin-top: 3%;
+}
+
+.button-container a {
+  text-decoration: none;
+}
+
+.button-container button {
+  width: clamp(250px, 40vw, 400px);  
+  height: clamp(50px, 6vw, 60px);    
+  padding: clamp(10px, 1vw, 15px) ;  
+  font-size: clamp(14px, 1.5vw, 16px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  overflow: hidden;
+  color: white;
+  background:  var(--site-blue);
+  transition: all 0.3s ease;
+  box-shadow: 0 10px 25px rgba(70, 98, 171, 0.35);
+}
+
+
+.button-container button:hover {
+  transform: translateY(-4px) scale(1.05);
+  box-shadow: 0 15px 35px rgba(170, 184, 71, 0.45);
+  background-color: var(--site-green);
+  
+}
+
+.button-container button:active {
+  transform: scale(0.95);
+}
