@@ -5,15 +5,7 @@
   --site-gradient: linear-gradient(90deg, var(--site-blue), var(--site-green));
   --bg-product: #f6f9ff;
 }
-.MilletRava {
-  margin: 10%;
-}
-.MilletRoti {
-  margin: -205px;
-}
-.MilletDryIdlyDosaBatter {
-  margin: 10%;
-}
+
 
 .MilletRoti,
 .MilletDryIdlyDosaBatter {
@@ -42,7 +34,7 @@
   position: relative;
   overflow: hidden;
   width: 500px;
-  max-height: 722.5px;
+  max-height: 100%;
   margin-top: 60px;
   font-weight: 200px;
   background-color: var(--bg-product);
@@ -153,182 +145,106 @@ img {
   border: 2px solid #4662ab;
   color: white;
 }
-@media (max-width: 1560px) {
+@media (max-width:1920px) {
+  .MilletRoti,
+  .MilletDryIdlyDosaBatter,
   .MilletRava {
-    margin: 16%;
-    margin-top: 3.8%;
-  }
-  .MilletDryIdlyDosaBatter {
-    margin: 35%;
-    margin-top: -14%;
-    margin-bottom: auto;
+    width: 30%;
+    height: fit-content;
+    
   }
 }
 @media (max-width: 1280px) {
+ .MilletRoti,
+  .MilletDryIdlyDosaBatter,
   .MilletRava {
-    height: 815px;
+    max-width: 40%;
+    width: 100%;
+    height: fit-content;
   }
-  .MilletRoti {
-    height: 815px;
+  .MilletDryIdlyDosaBatter{
+      margin-top: -0.4%;
+      margin-bottom: -0.4%;
+    }
   }
-  .MilletDryIdlyDosaBatter {
-    height: 820px;
-  }
-  .MilletRava {
-    width: 65%;
+  @media (max-width: 1120px) {
+    .MilletRoti,
+    .MilletDryIdlyDosaBatter,
+    .MilletRava {
+      max-width: 42%;
+      width: 100%;
+      height: fit-content;
+    }
+    .MilletDryIdlyDosaBatter{
+      margin-top: -0.1%;
+      margin-bottom: -0.4%;
+   }
 
-    margin: 5.6%;
-    margin-top: -3.9%;
-    scale: 0.69;
-    margin-bottom: -11%;
-  }
-  .MilletRoti {
-    width: 35%;
-
-    margin-top: -3.9%;
-    scale: 0.69;
-    margin-bottom: -11%;
-  }
-  .MilletDryIdlyDosaBatter {
-    margin: 5.6%;
-    width: 35%;
-    scale: 0.69;
-    margin-top: -4%;
-    margin-bottom: -11%;
-  }
-  .WhyChooseOurProducts {
-    margin-left: 3%;
-    width: 94%;
-    margin-top: 5px;
-    margin-bottom: -30px;
-  }
-}
-
-@media (max-width: 1280px) {
-  .MilletRava {
-    height: 815px;
-  }
-  .MilletRoti {
-    height: 815px;
-  }
-  .MilletDryIdlyDosaBatter {
-    height: 815px;
-  }
-  .MilletRava {
-    width: 33%;
-
-    margin: 7%;
-    margin-top: -2.9%;
-    scale: 0.78;
-    margin-bottom: -7%;
-  }
-  .MilletRoti {
-    width: 33%;
-
-    margin-top: -2.9%;
-    scale: 0.78;
-    margin-bottom: -7%;
-  }
-  .MilletDryIdlyDosaBatter {
-    margin: 7%;
-    width: 33%;
-    scale: 0.78;
-    margin-top: -3%;
-    margin-bottom: -7%;
-  }
-  .WhyChooseOurProducts {
-    margin-left: 3%;
-    width: 94%;
-    margin-top: 5px;
-    margin-bottom: -30px;
-  }
 }
 @media (max-width: 850px) {
+
+ 
   .MilletRava {
-    width: 60%;
-    margin-left: 20%;
+     max-width: 100%;
+    width: 100%;
+    height: fit-content;
+    scale: 0.9;
+    margin-top: auto;
   }
-  .MilletRoti {
-    width: 60%;
-    margin-left: 20%;
-    margin-top: -14%;
-  }
+ .MilletRoti,
   .MilletDryIdlyDosaBatter {
-    width: 60%;
-    margin: 20%;
-    margin-top: -14%;
-    margin-bottom: -15%;
+     max-width: 100%;
+    width: 100%;
+    height: fit-content;
+    scale: 0.9;
+    margin-top: -10%;
   }
-  .WhyChooseOurProducts {
-    margin-left: 20%;
-    width: 500px;
-    margin-top: -140px;
+    .MilletDryIdlyDosaBatter {
+  
+   margin-bottom: -10%;
   }
 }
 
 @media (max-width: 608px) {
+ .MilletRoti,
+  .MilletDryIdlyDosaBatter,
   .MilletRava {
-    margin: 10%;
-    width: 80%;
-    margin-top: -8%;
+    width: 100%;
+    height: fit-content;
   }
-  .MilletRoti {
-    margin: 10%;
-    width: 80%;
-    margin-top: -38%;
-  }
+   .MilletRoti,
   .MilletDryIdlyDosaBatter {
-    margin: 10%;
-    width: 80%;
-    margin-top: -38%;
-    margin-bottom: -20%;
+   
+    margin-top: -15%;
   }
 }
 
 @media (max-width: 480px) {
-  .MilletRava {
-    width: 100%;
-    max-height: 700px;
-    margin: 0;
-    padding: 10px;
-  }
-  .MilletRoti {
-    width: 100%;
-    max-height: 700px;
-    margin: 0;
-    margin-top: -30%;
-    padding: 10px;
-  }
+  .MilletRoti,
   .MilletDryIdlyDosaBatter {
-    width: 100%;
-    max-height: 700px;
-    margin: 0;
-    margin-top: -30%;
-    padding: 10px;
-    margin-bottom: -15%;
+  
+   margin-top: -19%;
   }
+  
 }
 
 @media (max-width: 400px) {
-  .MilletRava {
-    width: 100%;
-    max-height: 700px;
-    margin: 0;
-    padding: 10px;
-  }
-  .MilletRoti {
-    width: 100%;
-    max-height: 700px;
-    margin: 0;
-    margin-top: -40%;
-    padding: 10px;
-  }
+  .MilletRoti,
   .MilletDryIdlyDosaBatter {
-    width: 100%;
-    max-height: 700px;
-    margin: 0;
-    margin-top: -40%;
-    padding: 10px;
-    margin-bottom: -25%;
+  
+   margin-top: -12%;
   }
+   .MilletDryIdlyDosaBatter {
+  
+   margin-bottom: -15%;
+  }
+
+}
+@media (max-width: 380px) {
+  .MilletRoti,
+  .MilletDryIdlyDosaBatter {
+  
+   margin-top: -22%;
+  }
+
 }
