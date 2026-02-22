@@ -145,13 +145,21 @@ img {
   border: 2px solid #4662ab;
   color: white;
 }
-@media (max-width:1920px) {
+@media (max-width:1980px) {
   .MilletRoti,
   .MilletDryIdlyDosaBatter,
   .MilletRava {
     width: 30%;
     height: fit-content;
     
+  }
+}
+@media (max-width:1920px) {
+  .MilletRoti,
+  .MilletDryIdlyDosaBatter,
+  .MilletRava {
+    width: 30%;
+    height: fit-content;
   }
 }
 @media (max-width: 1280px) {
