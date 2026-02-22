@@ -40,8 +40,8 @@ html, body {
   position: relative;
 
   /* Responsive scaling */
-  width: min(90vw, 830px);
-  height: min(90vw, 830px);
+  width: min(90vw, 840px);
+  height: min(90vw, 840px);
 
   --orbit-radius: 320px;
 }
