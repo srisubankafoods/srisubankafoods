@@ -138,6 +138,16 @@ html, body {
 /* ============================= */
 /* RESPONSIVE BREAKPOINTS */
 /* ============================= */
+@media (max-width: 2400px) {
+  .orbit-container {
+    --orbit-radius: 205px;
+  }
+  .center-card {
+  width: clamp(140px, 30vw, 350px);
+  height: clamp(140px, 30vw, 350px);
+
+
+}}
 @media (max-width: 1920px) {
   .orbit-container {
     --orbit-radius: 205px;
