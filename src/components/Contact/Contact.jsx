@@ -5,7 +5,7 @@ import { useState } from "react";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { IoSend } from "react-icons/io5";
 import { sendToWhatsApp } from "./whatsApp.api";
-
+import whatsAppImg from "../../assets/wtsp.png";
 function Contact() {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
   React.useEffect(() => {
@@ -93,8 +93,10 @@ function Contact() {
               </div>
 
               <button type="submit" className="submit-btn">
-                <IoSend />
-                <span>Submit</span>
+                <span>
+                  <img src={whatsAppImg} alt="" />
+                </span>
+                Reach Us
               </button>
             </form>
           </div>
