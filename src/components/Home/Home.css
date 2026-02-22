@@ -5,6 +5,9 @@
 }
 #Home-page{
     scroll-margin-top:var(--nav-size);
+    padding-top: 120px;
+    margin-top: 40px;
+    background: var(--bg-product);
 }
 .homehead{
     display: flex;
