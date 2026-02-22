@@ -92,7 +92,7 @@
 
 .nav-wrapper {
   animation: float 5s ease-in-out infinite;
-  position: sticky;
+  position: fixed;
   z-index: 200;
   float: top;
   top: 0;
