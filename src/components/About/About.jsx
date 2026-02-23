@@ -53,7 +53,7 @@ function About() {
           traditional foods into modern homes, making heritage flavours
           accessible to future generations.
         </span></h3>
-        <div className="about-stat-cards">
+        {/* <div className="about-stat-cards">
           <AboutStatsCard
             icon={<BsPeopleFill size={60} color="#4662AB" />}
             statNumber="1000"
@@ -78,7 +78,7 @@ function About() {
             suffix="%"
             statText="Quality Assurance"
           />
-        </div>
+        </div> */}
       </div>
     </div>
     </div>

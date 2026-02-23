@@ -1,4 +1,4 @@
-import React, { useEffect } from "react"; 
+import React, { useEffect } from "react";
 import "./Footer.css";
 import LOGO from "../../assets/logo.png";
 import { IoMail, IoCall } from "react-icons/io5";
@@ -10,18 +10,26 @@ function Footer() {
   const handleRouteChange = (item) => {
     switch (item) {
       case "Home":
-        document.getElementById("Home-page").scrollIntoView({ behavior: "smooth", block: "start" }).then( window.scrollBy({ top: 300, behavior: "smooth" })
-        );
-        
+        document
+          .getElementById("Home-page")
+          .scrollIntoView({ behavior: "smooth", block: "start" })
+          .then(window.scrollBy({ top: 300, behavior: "smooth" }));
+
         break;
       case "Products":
-        document.getElementById("Products-page").scrollIntoView({ behavior: "smooth", block: "start" });
+        document
+          .getElementById("Products-page")
+          .scrollIntoView({ behavior: "smooth", block: "start" });
         break;
       case "About":
-        document.getElementById("About-page").scrollIntoView({ behavior: "smooth", block: "start" });
+        document
+          .getElementById("About-page")
+          .scrollIntoView({ behavior: "smooth", block: "start" });
         break;
       case "Contact":
-          document.getElementById("Contact-page").scrollIntoView({ behavior: "smooth", block: "start" });
+        document
+          .getElementById("Contact-page")
+          .scrollIntoView({ behavior: "smooth", block: "start" });
         break;
     }
   };
@@ -35,7 +43,7 @@ function Footer() {
           </div>
           <div class="company-name">
             <h1>Sri Subanka Foods Pvt Ltd</h1>
-            <h2>Manufactures of Value Added Natural Food Products</h2>
+            <h2>Reliable Manufacturer for Remarkable Brands</h2>
           </div>
         </div>
         <div className="navigators">
@@ -79,6 +87,11 @@ function Footer() {
           </ul>
         </div>
       </div>
+      <span className="align-center">
+        <FaMapMarkerAlt color="red" size={20} />
+        Regd Off : 54, 2nd Street, Sriramapuram, Srirangam, Trichy – 620006.
+        Tamilnadu. India.
+      </span>
       <hr className="footer-divider2" />
       <p className="copyright-text">
         Copyrights {new Date().getFullYear()} &copy; Sri Subanks Foods

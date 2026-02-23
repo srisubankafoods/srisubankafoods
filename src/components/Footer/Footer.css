@@ -7,51 +7,70 @@
   overflow: hidden;
 }
 
-.footer-divider{
-    border: 1px solid var(--site-blue);
-    width: 95%;
-    margin: 10% auto 0 ;
+.footer-divider {
+  border: 1px solid var(--site-blue);
+  width: 95%;
+  margin: 10% auto 0;
 }
-.footer-divider2{
-    border: 1px solid var(--site-blue);
-    width: 95%;
-    margin: 0 auto 1% ;
-}
-
-.company-details h1{
-    text-align: center;
-    color:var(--site-blue);
+.footer-divider2 {
+  border: 1px solid var(--site-blue);
+  width: 95%;
+  margin: 0 auto 1%;
 }
 
-.company-details h2{
-    text-align: center;
-    color:var(--site-green);
+.company-details h1 {
+  text-align: center;
+  color: var(--site-blue);
 }
 
-.company-details img{
-    width: 120px;
-    height: 120px;
-    margin: auto;
+.company-details h2 {
+  text-align: center;
+  color: var(--site-green);
 }
 
-.navigators ul, .social-links ul{
-    display: flex;
-    gap: 40px;
-    padding: 30px 0;
-}
-.navigators ul li, .social-links ul li{
-    list-style: none;
-}
-.navigators ul li a, .social-links ul li a{
-    text-decoration: none;
-    color: var(--text-normal);
-    &:hover{
-        scale: 1.01;
-    }
+.company-details img {
+  width: 120px;
+  height: 120px;
+  margin: auto;
 }
 
-.copyright-text{
-    color: #888888;
-    text-align: center;
-    margin-bottom: 20px;
+.navigators ul,
+.social-links ul {
+  display: flex;
+  gap: 40px;
+  padding: 30px 0;
+}
+.navigators ul li,
+.social-links ul li {
+  list-style: none;
+}
+.navigators ul li a,
+.social-links ul li a {
+  text-decoration: none;
+  color: var(--text-normal);
+  &:hover {
+    scale: 1.01;
+  }
+}
+
+.align-center {
+  width: fit-content;
+  text-align: center;
+  vertical-align: middle;
+  margin: auto;
+  color: #888888;
+  padding: 2%;
+  white-space: no-wrap;
+}
+
+.copyright-text {
+  color: #888888;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 1280px) {
+  .footer-divider {
+    margin-top: 20px;
+  }
 }
