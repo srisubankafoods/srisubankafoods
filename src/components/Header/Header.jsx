@@ -4,7 +4,7 @@ import "./Header.css";
 import logo from "./../../assets/logo.png";
 const Header = () => {
   const [active, setActive] = useState("Home");
-  const navItems = ["Home", "Products", "About", "Contact"];
+  const navItems = ["Home", "About", "Products", "Contact"];
   const handleRouteChange = (item) => {
     switch (item) {
       case "Home":
@@ -14,16 +14,17 @@ const Header = () => {
           .then(window.scrollBy({ top: 300, behavior: "smooth" }));
 
         break;
-      case "Products":
-        document
-          .getElementById("Products-page")
-          .scrollIntoView({ behavior: "smooth", block: "start" });
-        break;
       case "About":
         document
           .getElementById("About-page")
           .scrollIntoView({ behavior: "smooth", block: "start" });
         break;
+      case "Products":
+        document
+          .getElementById("Products-page")
+          .scrollIntoView({ behavior: "smooth", block: "start" });
+        break;
+
       case "Contact":
         document
           .getElementById("Contact-page")
@@ -39,7 +40,7 @@ const Header = () => {
       </div>
       <div className="shopName">
         <h1>Sri Subanka Foods Pvt Ltd</h1>
-        <h5>Manufactures of Value Added Natural Food Products</h5>
+        <h5>Reliable Manufacturer for Remarkable Brands</h5>
       </div>
       <ul className="nav-container">
         {navItems.map((item) => (
