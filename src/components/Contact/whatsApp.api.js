@@ -12,7 +12,7 @@ export const sendToWhatsApp = (
   const time = now.toLocaleTimeString();
 
   const text = `
-*NEW WEBSITE ENQUIRY FROMS SRI SUBANKS FOODS*
+*NEW WEBSITE ENQUIRY FROMS SRI SUBANKA FOODS*
 
 *Date:* ${date}
 *Time:* ${time}

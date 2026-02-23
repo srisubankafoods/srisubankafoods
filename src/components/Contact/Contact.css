@@ -37,6 +37,7 @@
 }
 
 .align-center {
+  text-align: center;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -57,6 +58,7 @@
 .form-wrapper {
   flex: 1;
   min-width: 350px;
+  padding: 10px;
 }
 
 .form-group {
@@ -71,9 +73,9 @@
 }
 
 .contact-subheading {
-  color: var(--site-green);
+  color: var(--text-dim);
   margin-bottom: 35px;
-  text-align: justify;
+  text-align: center;
 }
 
 .form-group input,
@@ -109,7 +111,7 @@
   width: 100%;
 }
 
-.submit-btn span{
+.submit-btn span {
   max-height: 50px;
 }
 
@@ -144,5 +146,12 @@
   }
   .submit-btn {
     margin-top: 10px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .wrapper {
+    width: 70%;
+    margin: 60px auto 0;
   }
 }
