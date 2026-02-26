@@ -21,7 +21,7 @@
   flex: 1;
 }
 .image img {
-  height: 750px;
+  height: 450px;
   width: 100%;
   display: inline-flex;
   min-width: 350px;
