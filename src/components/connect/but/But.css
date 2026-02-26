@@ -15,7 +15,7 @@
 }
 
 .button-container button {
-  width: clamp(280px, 40vw, 400px);
+  width: clamp(280px, 40vw, 300px);
   height: clamp(50px, 6vw, 60px);
   padding: clamp(10px, 1vw, 15px);
   font-size: clamp(14px, 1.5vw, 16px);

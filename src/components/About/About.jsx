@@ -46,13 +46,13 @@ function About() {
         </div>
       </div>
       <div className="about-wrapper">
-        <h3>Our Vision
+        <em><h3>Our Vision
         <span className="to-black-and-small">
           {" "}
           is to become a “trusted food contract manufacturing company” that brings
           traditional foods into modern homes, making heritage flavours
           accessible to future generations.
-        </span></h3>
+        </span></h3></em>
         {/* <div className="about-stat-cards">
           <AboutStatsCard
             icon={<BsPeopleFill size={60} color="#4662AB" />}

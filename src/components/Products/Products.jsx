@@ -9,11 +9,11 @@ function Products() {
       <Heading
         heading="Product Line" subHeading=""
       />
-      <h3 className="product-second-line">We are committed to promoting nutritious traditional grains by
+      <h3 className="product-second-line"><em>We are committed to promoting nutritious traditional grains by
           transforming millets into convenient, modern food solutions. Our
           millet-based products combine health benefits, authentic taste and
           ease of preparation — ideal for both domestic and international
-          markets.</h3>
+          markets.</em></h3>
 
       <div className="all">
         <ProductComponent
