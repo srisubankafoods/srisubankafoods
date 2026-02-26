@@ -185,7 +185,7 @@ html, body {
   .orbit-scene {
     min-height: auto;
     padding-top: 2rem;
-    padding-bottom: 2rem;
+    margin-bottom:-20px;
   }
 }
 

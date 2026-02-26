@@ -7,12 +7,11 @@ function Products() {
     <>
     <div id="Products-page">
       <Heading
-        heading="Product Line"
-        subHeading=""
+        heading="Product Line" subHeading=""
       />
       <h3 className="product-second-line">We are committed to promoting nutritious traditional grains by
           transforming millets into convenient, modern food solutions. Our
-          millet-based products combine health benefits, authentic taste, and
+          millet-based products combine health benefits, authentic taste and
           ease of preparation — ideal for both domestic and international
           markets.</h3>
 
@@ -41,9 +40,9 @@ function Products() {
           para1=" Our Millet Roti offers a wholesome alternative to wheat-based
             flatbreads, made from carefully selected millets to deliver both
             nutrition and taste."
-          para2="  Gluten-free option, High in calcium and iron ,Suitable for
-            diabetic-friendly diets ,Soft texture with flavor"
-          para3="Daily meals, health-conscious consumers, and specialty diets."
+          para2="  Gluten-free option, High in calcium and iron, Suitable for
+            diabetic-friendly diets, Soft texture with flavor"
+          para3="Daily meals, health-conscious consumers and specialty diets."
         />
         <ProductComponent
           imgArr={[5, 6]}
@@ -55,10 +54,9 @@ function Products() {
           para1=" A convenient solution for preparing soft, traditional idlis using
             millet instead of polished rice. Our dry batter ensures consistent
             results with minimal preparation."
-          para2="High fiber content,Better blood sugar management,
-            Nutrient-dense alternative to rice"
+          para2="High fiber content, Better blood sugar management, Nutrient-dense alternative to rice"
           para3={
-            "Daily meals, health-conscious consumers, and specialty diets."
+            "Daily meals, health-conscious consumers and specialty diets."
           }
         />
       </div>
