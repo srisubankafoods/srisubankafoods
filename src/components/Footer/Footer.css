@@ -43,6 +43,7 @@
 .navigators ul li,
 .social-links ul li {
   list-style: none;
+  margin-bottom: 30px;
 }
 .navigators ul li a,
 .social-links ul li a {
@@ -77,10 +78,13 @@
 
 @media (max-width: 780px) {
   .company-details h1 {
-    font-size:28px
+    font-size: 24px;
   }
 
   .company-details h2 {
-    font-size:16px
+    font-size: 14px;
+  }
+  .align-center {
+    font-size: 12px;
   }
 }

@@ -62,6 +62,13 @@ function Footer() {
             </li>
           </ul>
         </div> */}
+        <span className="align-center">
+          <span>
+            <FaMapMarkerAlt color="red" size={15} />
+            Sri Subanka Foods Pvt Ltd, Regd Off : 54, 2nd Street, Sriramapuram,
+            Srirangam, Trichy – 620006. Tamilnadu. India.
+          </span>
+        </span>{" "}
         <div class="social-links">
           <ul>
             <li>
@@ -87,16 +94,9 @@ function Footer() {
           </ul>
         </div>
       </div>
-      <span className="align-center">
-        <span>
-          <FaMapMarkerAlt color="red" size={15} />
-          Sri Subanka Foods Pvt Ltd, Regd Off : 54, 2nd Street, Sriramapuram,
-          Srirangam, Trichy – 620006. Tamilnadu. India.
-        </span>
-      </span>
       <hr className="footer-divider2" />
       <p className="copyright-text">
-        Copyrights {new Date().getFullYear()} &copy; Sri Subanks Foods
+        Copyrights {new Date().getFullYear()} &copy; Sri Subanks Foods Pvt Ltd
       </p>
       ``
     </>
