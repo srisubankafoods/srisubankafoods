@@ -26,8 +26,8 @@ function Connect() {
           </span>
           <span className="button-main">
          <But link={"tel:+919976043034"} content={"Call Us: +919976043034"} />
-         <But link={"mailto:srisubankafoods@gmail.com"} content={"Mail Us"} />
-         <But link={"https://www.srisubankafoods.com"} content={"www.srisubankafoods.com"} />
+         <But link={"mailto:srisubankafoods@gmail.com"} content={"srisubankafoods@gmail.com"} />
+         <But link={"/"} content={"www.srisubankafoods.com"} />
          </span>  
 
         </div>
