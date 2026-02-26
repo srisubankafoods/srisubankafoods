@@ -54,9 +54,9 @@
 }
 
 .align-center {
+  display: flex;
+  flex-direction: column;
   width: fit-content;
-  text-align: center;
-  vertical-align: middle;
   margin: auto;
   color: #888888;
   padding: 2%;
@@ -72,5 +72,15 @@
 @media (min-width: 1280px) {
   .footer-divider {
     margin-top: 20px;
+  }
+}
+
+@media (max-width: 780px) {
+  .company-details h1 {
+    font-size:28px
+  }
+
+  .company-details h2 {
+    font-size:16px
   }
 }
