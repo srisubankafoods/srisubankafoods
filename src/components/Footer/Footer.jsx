@@ -6,33 +6,33 @@ import { FaMapMarkerAlt } from "react-icons/fa";
 import { RiGlobalLine } from "react-icons/ri";
 
 function Footer() {
-  const navItems = ["Home", "Products", "About", "Contact"];
-  const handleRouteChange = (item) => {
-    switch (item) {
-      case "Home":
-        document
-          .getElementById("Home-page")
-          .scrollIntoView({ behavior: "smooth", block: "start" })
-          .then(window.scrollBy({ top: 300, behavior: "smooth" }));
+  // const navItems = ["Home", "Products", "About", "Contact"];
+  // const handleRouteChange = (item) => {
+  //   switch (item) {
+  //     case "Home":
+  //       document
+  //         .getElementById("Home-page")
+  //         .scrollIntoView({ behavior: "smooth", block: "start" })
+  //         .then(window.scrollBy({ top: 300, behavior: "smooth" }));
 
-        break;
-      case "Products":
-        document
-          .getElementById("Products-page")
-          .scrollIntoView({ behavior: "smooth", block: "start" });
-        break;
-      case "About":
-        document
-          .getElementById("About-page")
-          .scrollIntoView({ behavior: "smooth", block: "start" });
-        break;
-      case "Contact":
-        document
-          .getElementById("Contact-page")
-          .scrollIntoView({ behavior: "smooth", block: "start" });
-        break;
-    }
-  };
+  //       break;
+  //     case "Products":
+  //       document
+  //         .getElementById("Products-page")
+  //         .scrollIntoView({ behavior: "smooth", block: "start" });
+  //       break;
+  //     case "About":
+  //       document
+  //         .getElementById("About-page")
+  //         .scrollIntoView({ behavior: "smooth", block: "start" });
+  //       break;
+  //     case "Contact":
+  //       document
+  //         .getElementById("Contact-page")
+  //         .scrollIntoView({ behavior: "smooth", block: "start" });
+  //       break;
+  //   }
+  // };
   return (
     <>
       <hr className="footer-divider" />
@@ -46,7 +46,7 @@ function Footer() {
             <h2>Reliable Manufacturer for Remarkable Brands</h2>
           </div>
         </div>
-        <div className="navigators">
+        {/* <div className="navigators">
           <ul>
             <li>
               <a onClick={() => handleRouteChange("Home")}>Home</a>
@@ -61,7 +61,7 @@ function Footer() {
               <a onClick={() => handleRouteChange("Contact")}>Contact</a>
             </li>
           </ul>
-        </div>
+        </div> */}
         <div class="social-links">
           <ul>
             <li>
@@ -88,14 +88,17 @@ function Footer() {
         </div>
       </div>
       <span className="align-center">
-        <FaMapMarkerAlt color="red" size={20} />
-        Regd Off : 54, 2nd Street, Sriramapuram, Srirangam, Trichy – 620006.
-        Tamilnadu. India.
+        <span>
+          <FaMapMarkerAlt color="red" size={15} />
+          Sri Subanka Foods Pvt Ltd, Regd Off : 54, 2nd Street, Sriramapuram,
+          Srirangam, Trichy – 620006. Tamilnadu. India.
+        </span>
       </span>
       <hr className="footer-divider2" />
       <p className="copyright-text">
         Copyrights {new Date().getFullYear()} &copy; Sri Subanks Foods
       </p>
+      ``
     </>
   );
 }

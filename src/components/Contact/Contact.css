@@ -108,18 +108,23 @@
   gap: 10px;
   max-width: 200px;
   height: auto;
-  width: 100%;
+  width: auto;
 }
 
 .submit-btn span {
-  max-height: 50px;
+  max-height: 25px;
+}
+
+.submit-btn .img-part {
+  flex-basis: 25%;
 }
 
 .submit-btn img {
-  transform: translateY(-75px) translateX(-10px);
-  scale: 0.7;
+  scale: 1;
   width: 100%;
   height: 40%;
+  width: 70%;
+  margin: 0;
 }
 
 .submit-btn:hover {

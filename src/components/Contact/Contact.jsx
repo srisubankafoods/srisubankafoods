@@ -93,10 +93,10 @@ function Contact() {
               </div>
 
               <button type="submit" className="submit-btn">
-                <span>
+                <span className="img-part">
                   <img src={whatsAppImg} alt="" />
                 </span>
-                Reach Us
+                <span className="text-part">Reach Us</span>
               </button>
             </form>
           </div>
