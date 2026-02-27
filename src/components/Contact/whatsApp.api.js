@@ -5,7 +5,7 @@ export const sendToWhatsApp = (
   mobileNumber,
   message,
 ) => {
-  const phoneNumber = "919042649000"; // India country code added
+  const phoneNumber = "919976043034"; // India country code added
 
   const now = new Date();
   const date = now.toLocaleDateString();
