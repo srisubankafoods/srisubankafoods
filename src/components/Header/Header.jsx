@@ -40,7 +40,7 @@ const Header = () => {
       </div>
       <div className="shopName">
         <h1>Sri Subanka Foods Pvt Ltd</h1>
-        <h5>Reliable Manufacturer for Remarkable Brands</h5>
+        <h3>Reliable Manufacturer for Remarkable Brands</h3>
       </div>
       <ul className="nav-container">
         {navItems.map((item) => (
