@@ -114,9 +114,10 @@
   color: var(--site-blue);
   margin-bottom: 0.2rem;
 }
-.shopName h5 {
-  font-size: 0.7rem;
+.shopName h3 {
+  font-size: 1.145rem;
   color: var(--site-green);
+  text-align: justify;
 }
 
 @media (max-width: 850px) {
@@ -140,7 +141,11 @@
   .shopName p {
     font-size: 13px;
   }
-
+  .shopName h3 {
+  font-size: 0.7rem;
+  color: var(--site-green);
+  text-align: justify;
+}
   .nav-container {
     justify-content: center;
     gap: 10px;
