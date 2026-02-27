@@ -98,7 +98,7 @@ function Footer() {
       <p className="copyright-text">
         Copyrights {new Date().getFullYear()} &copy; Sri Subanks Foods Pvt Ltd
       </p>
-      ``
+      
     </>
   );
 }
