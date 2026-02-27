@@ -1,6 +1,6 @@
 import React from "react";
 import "./images.css";
-import logo from "./../../assets/pics/logo2.png";
+import logo from "./../../assets/pics/logo4.png";
 import flour from "./../../assets/imagess/flour.jpeg";
 import flour2 from "./../../assets/imagess/flour2.jpeg";
 import idly from "./../../assets/imagess/idly.jpeg";

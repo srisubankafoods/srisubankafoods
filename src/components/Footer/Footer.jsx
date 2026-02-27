@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "./Footer.css";
-import LOGO from "../../assets/logo.png";
+import LOGO from "../../assets/logo4.png";
 import { IoMail, IoCall } from "react-icons/io5";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { RiGlobalLine } from "react-icons/ri";
@@ -19,7 +19,7 @@ function Footer() {
   //     case "Products":
   //       document
   //         .getElementById("Products-page")
-  //         .scrollIntoView({ behavior: "smooth", block: "start" });
+  //          .scrollIntoView({ behavior: "smooth", block: "start" });
   //       break;
   //     case "About":
   //       document
@@ -65,7 +65,7 @@ function Footer() {
         <span className="align-center">
           <span>
             <FaMapMarkerAlt color="red" size={15} />
-            Sri Subanka Foods Pvt Ltd, Regd Off : 54, 2nd Street, Sriramapuram,
+            Regd Off : 54, 2nd Street, Sriramapuram,
             Srirangam, Trichy – 620006. Tamilnadu. India.
           </span>
         </span>{" "}
