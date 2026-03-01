@@ -96,7 +96,7 @@ function Footer() {
       </div>
       <hr className="footer-divider2" />
       <p className="copyright-text">
-        Copyrights {new Date().getFullYear()} &copy; Sri Subanks Foods Pvt Ltd
+        Copyrights {new Date().getFullYear()} &copy; Sri Subanka Foods Pvt Ltd
       </p>
       
     </>
