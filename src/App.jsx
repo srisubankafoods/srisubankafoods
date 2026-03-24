@@ -8,6 +8,7 @@ import About from "./components/About/About";
 import Footer from "./components/Footer/Footer";
 import WhyChooseUs from "./components/WhyChooseUs/WhyChooseUs";
 import "./App.css";
+import WhatsAppButton from "./components/WhatsAppButton/WhatsAppButton";
 function App() {
   return (
     <>
@@ -19,6 +20,7 @@ function App() {
       <Connect />
       <Contact />
       <Footer />
+      <WhatsAppButton/>
     </>
   );
 }
